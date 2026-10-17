@@ -1,0 +1,13 @@
+background,outcome,component,share
+car-oriented,mean_time_loss_sec,departureVariation,0.861003052669943
+car-oriented,mean_time_loss_sec,busHeadway,0.1375032818133096
+car-oriented,mean_time_loss_sec,interaction,0.0014936655167472946
+car-oriented,general_time_loss_sec,departureVariation,0.9987150057224479
+car-oriented,general_time_loss_sec,busHeadway,0.00012456281430994003
+car-oriented,general_time_loss_sec,interaction,0.0011604314632421842
+midpoint,mean_time_loss_sec,departureVariation,0.7886208647440429
+midpoint,mean_time_loss_sec,busHeadway,0.21033941447573373
+midpoint,mean_time_loss_sec,interaction,0.0010397207802234705
+midpoint,general_time_loss_sec,departureVariation,0.9987919339538959
+midpoint,general_time_loss_sec,busHeadway,9.732299951368468e-05
+midpoint,general_time_loss_sec,interaction,0.001110743046590352

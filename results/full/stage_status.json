@@ -1,0 +1,87 @@
+{
+  "design": {
+    "status": "complete",
+    "elapsed_sec": 653.0,
+    "finished": "2026-10-17 09:58:35"
+  },
+  "models": {
+    "status": "complete",
+    "elapsed_sec": 78.4,
+    "finished": "2026-10-17 09:59:53"
+  },
+  "independent_test": {
+    "status": "complete",
+    "elapsed_sec": 0.4,
+    "finished": "2026-10-17 09:59:54"
+  },
+  "intervals": {
+    "status": "complete",
+    "elapsed_sec": 0.8,
+    "finished": "2026-10-17 09:59:54"
+  },
+  "replication": {
+    "status": "complete",
+    "elapsed_sec": 92.6,
+    "finished": "2026-10-17 10:01:27"
+  },
+  "recourse": {
+    "status": "complete",
+    "elapsed_sec": 248.6,
+    "finished": "2026-10-17 10:05:36"
+  },
+  "inverse_calibration": {
+    "status": "complete",
+    "elapsed_sec": 374.3,
+    "finished": "2026-10-17 10:11:50"
+  },
+  "mechanism": {
+    "status": "complete",
+    "elapsed_sec": 614.2,
+    "finished": "2026-10-17 10:22:04"
+  },
+  "sobol_sumo": {
+    "status": "complete",
+    "elapsed_sec": 2552.5,
+    "finished": "2026-10-17 11:04:37"
+  },
+  "sensitivity": {
+    "status": "complete",
+    "elapsed_sec": 260.7,
+    "finished": "2026-10-17 11:08:57"
+  },
+  "learning_curve": {
+    "status": "complete",
+    "elapsed_sec": 153.4,
+    "finished": "2026-10-17 11:11:31"
+  },
+  "teleport": {
+    "status": "complete",
+    "elapsed_sec": 16.9,
+    "finished": "2026-10-17 11:11:48"
+  },
+  "routing": {
+    "status": "complete",
+    "elapsed_sec": 2.7,
+    "finished": "2026-10-17 11:11:50"
+  },
+  "transfer": {
+    "status": "complete",
+    "elapsed_sec": 387.0,
+    "finished": "2026-10-17 11:18:17"
+  },
+  "runtime_quality": {
+    "status": "complete",
+    "elapsed_sec": 0.5,
+    "finished": "2026-10-17 11:18:18"
+  },
+  "figures": {
+    "status": "complete",
+    "elapsed_sec": 35.7,
+    "finished": "2026-10-17 11:45:59"
+  },
+  "export": {
+    "status": "complete",
+    "elapsed_sec": 2.0,
+    "finished": "2026-10-17 11:50:21"
+  }
+}

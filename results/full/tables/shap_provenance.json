@@ -1,0 +1,17 @@
+{
+  "mean_time_loss_sec": {
+    "background_rows": 100,
+    "catboost_bias_corrected": true,
+    "max_additivity_error": 5.023259940628577e-05
+  },
+  "total_vkt_km": {
+    "background_rows": 100,
+    "catboost_bias_corrected": true,
+    "max_additivity_error": 0.0018605884897624492
+  },
+  "general_time_loss_sec": {
+    "background_rows": 100,
+    "catboost_bias_corrected": true,
+    "max_additivity_error": 7.60458927544505e-05
+  }
+}

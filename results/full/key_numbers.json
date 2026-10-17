@@ -1,0 +1,4173 @@
+{
+  "test": {
+    "mean_time_loss_sec|Ridge|single_run": {
+      "R2": 0.4780662633749161,
+      "RMSE": 6.707381353795383,
+      "MAE": 4.883883856451781,
+      "bias": 0.510197952763463
+    },
+    "mean_time_loss_sec|Ridge|seed_mean": {
+      "R2": 0.4828288085030715,
+      "RMSE": 6.486442300712739,
+      "MAE": 4.783553343378976,
+      "bias": 0.55401294166141
+    },
+    "mean_time_loss_sec|GaussianProcess|single_run": {
+      "R2": 0.9378148222163316,
+      "RMSE": 2.315201283676668,
+      "MAE": 1.6667846075409891,
+      "bias": 0.1547959304013809
+    },
+    "mean_time_loss_sec|GaussianProcess|seed_mean": {
+      "R2": 0.947880608756018,
+      "RMSE": 2.0591551197384015,
+      "MAE": 1.3674389584726754,
+      "bias": 0.1986109192993279
+    },
+    "mean_time_loss_sec|RandomForest|single_run": {
+      "R2": 0.9007509410901712,
+      "RMSE": 2.92488310001707,
+      "MAE": 2.1140759296890765,
+      "bias": 0.2326508365368315
+    },
+    "mean_time_loss_sec|RandomForest|seed_mean": {
+      "R2": 0.9224284363707006,
+      "RMSE": 2.5121216687700145,
+      "MAE": 1.7875027299981197,
+      "bias": 0.2764658254347785
+    },
+    "mean_time_loss_sec|LightGBM|single_run": {
+      "R2": 0.930971934092402,
+      "RMSE": 2.4392604093029364,
+      "MAE": 1.7561802860691549,
+      "bias": 0.2659279248075463
+    },
+    "mean_time_loss_sec|LightGBM|seed_mean": {
+      "R2": 0.9432077971848836,
+      "RMSE": 2.149481708870151,
+      "MAE": 1.4581726753785391,
+      "bias": 0.3097429137054933
+    },
+    "mean_time_loss_sec|CatBoost|single_run": {
+      "R2": 0.9355361114605378,
+      "RMSE": 2.357238708018548,
+      "MAE": 1.622968696312651,
+      "bias": -0.0027831185246266
+    },
+    "mean_time_loss_sec|CatBoost|seed_mean": {
+      "R2": 0.9610113870988396,
+      "RMSE": 1.7809769103208026,
+      "MAE": 1.1811582992883636,
+      "bias": 0.0410318703733203
+    },
+    "mean_time_loss_sec|XGBoost|single_run": {
+      "R2": 0.9301362530543292,
+      "RMSE": 2.453981314187443,
+      "MAE": 1.733420082469327,
+      "bias": 0.1208194003777023
+    },
+    "mean_time_loss_sec|XGBoost|seed_mean": {
+      "R2": 0.95086443775496,
+      "RMSE": 1.9993432542949097,
+      "MAE": 1.3853591958208795,
+      "bias": 0.1646343892756493
+    },
+    "mean_time_loss_sec|Ensemble|single_run": {
+      "R2": 0.9366810938097094,
+      "RMSE": 2.3362107415463185,
+      "MAE": 1.6177990413856325,
+      "bias": 0.0590181409265375
+    },
+    "mean_time_loss_sec|Ensemble|seed_mean": {
+      "R2": 0.9600116982186802,
+      "RMSE": 1.803664997229406,
+      "MAE": 1.207627512333158,
+      "bias": 0.1028331298244845
+    },
+    "total_vkt_km|Ridge|single_run": {
+      "R2": 0.9452400846435832,
+      "RMSE": 155.4875604134507,
+      "MAE": 124.35052153265852,
+      "bias": 13.946359717364023
+    },
+    "total_vkt_km|Ridge|seed_mean": {
+      "R2": 0.943880055022692,
+      "RMSE": 158.4190921506506,
+      "MAE": 125.7409365336888,
+      "bias": 12.40948621736402
+    },
+    "total_vkt_km|GaussianProcess|single_run": {
+      "R2": 0.9954472853617,
+      "RMSE": 44.8331734033618,
+      "MAE": 35.00475319935109,
+      "bias": -0.0363838739904207
+    },
+    "total_vkt_km|GaussianProcess|seed_mean": {
+      "R2": 0.9968110066161426,
+      "RMSE": 37.76380192011704,
+      "MAE": 27.7492030903892,
+      "bias": -1.5732573739904296
+    },
+    "total_vkt_km|RandomForest|single_run": {
+      "R2": 0.9627467008998228,
+      "RMSE": 128.24682884674402,
+      "MAE": 101.55023221813012,
+      "bias": 4.221356992753171
+    },
+    "total_vkt_km|RandomForest|seed_mean": {
+      "R2": 0.9631742218840588,
+      "RMSE": 128.32901710302616,
+      "MAE": 99.85311961096642,
+      "bias": 2.6844834927531616
+    },
+    "total_vkt_km|LightGBM|single_run": {
+      "R2": 0.982334080522114,
+      "RMSE": 88.31457611227651,
+      "MAE": 68.81049875977284,
+      "bias": 1.19162958837474
+    },
+    "total_vkt_km|LightGBM|seed_mean": {
+      "R2": 0.982730308945426,
+      "RMSE": 87.88023023634935,
+      "MAE": 66.42353030789633,
+      "bias": -0.3452439116252691
+    },
+    "total_vkt_km|CatBoost|single_run": {
+      "R2": 0.9921957304787424,
+      "RMSE": 58.698958443759345,
+      "MAE": 46.62964365431,
+      "bias": 1.201094607608357
+    },
+    "total_vkt_km|CatBoost|seed_mean": {
+      "R2": 0.9932495330705728,
+      "RMSE": 54.94343517164359,
+      "MAE": 41.63887620019844,
+      "bias": -0.3357788923916519
+    },
+    "total_vkt_km|XGBoost|single_run": {
+      "R2": 0.9862801400362924,
+      "RMSE": 77.82857965564777,
+      "MAE": 60.87987755146482,
+      "bias": 6.264310900878916
+    },
+    "total_vkt_km|XGBoost|seed_mean": {
+      "R2": 0.986508860042088,
+      "RMSE": 77.67356271389698,
+      "MAE": 58.927343569316406,
+      "bias": 4.727437400878907
+    },
+    "total_vkt_km|Ensemble|single_run": {
+      "R2": 0.9914368043574382,
+      "RMSE": 61.48684351465093,
+      "MAE": 47.98860381471532,
+      "bias": 3.73270275424363
+    },
+    "total_vkt_km|Ensemble|seed_mean": {
+      "R2": 0.9920500479940476,
+      "RMSE": 59.6253793712163,
+      "MAE": 44.20876752418326,
+      "bias": 2.195829254243621
+    },
+    "general_time_loss_sec|Ridge|single_run": {
+      "R2": 0.4167552048942099,
+      "RMSE": 6.586566110717939,
+      "MAE": 4.7725091715264485,
+      "bias": 0.4000779493184427
+    },
+    "general_time_loss_sec|Ridge|seed_mean": {
+      "R2": 0.4354346278972477,
+      "RMSE": 6.32423679183612,
+      "MAE": 4.679536304164739,
+      "bias": 0.4329831823890149
+    },
+    "general_time_loss_sec|GaussianProcess|single_run": {
+      "R2": 0.9506566807723428,
+      "RMSE": 1.9157895478377904,
+      "MAE": 1.4635660286547856,
+      "bias": 0.0746515468377236
+    },
+    "general_time_loss_sec|GaussianProcess|seed_mean": {
+      "R2": 0.971737593893715,
+      "RMSE": 1.4149971664822474,
+      "MAE": 0.9418647154178774,
+      "bias": 0.1075567799082957
+    },
+    "general_time_loss_sec|RandomForest|single_run": {
+      "R2": 0.9244543273278144,
+      "RMSE": 2.370491572492257,
+      "MAE": 1.8550179243577445,
+      "bias": 0.0900179634893223
+    },
+    "general_time_loss_sec|RandomForest|seed_mean": {
+      "R2": 0.9436106862436217,
+      "RMSE": 1.9987082661681548,
+      "MAE": 1.438173045846184,
+      "bias": 0.1229231965598945
+    },
+    "general_time_loss_sec|LightGBM|single_run": {
+      "R2": 0.937299513064245,
+      "RMSE": 2.159578902950654,
+      "MAE": 1.6779474414045736,
+      "bias": 0.1584705772102286
+    },
+    "general_time_loss_sec|LightGBM|seed_mean": {
+      "R2": 0.95394018855965,
+      "RMSE": 1.8063923350921884,
+      "MAE": 1.2907282952222965,
+      "bias": 0.1913758102808007
+    },
+    "general_time_loss_sec|CatBoost|single_run": {
+      "R2": 0.942245812149484,
+      "RMSE": 2.0726470849341707,
+      "MAE": 1.49631027230976,
+      "bias": 0.0095504868144834
+    },
+    "general_time_loss_sec|CatBoost|seed_mean": {
+      "R2": 0.9684278484295696,
+      "RMSE": 1.4955574255077375,
+      "MAE": 1.0350425610622789,
+      "bias": 0.0424557198850556
+    },
+    "general_time_loss_sec|XGBoost|single_run": {
+      "R2": 0.9346110283958587,
+      "RMSE": 2.205392396487295,
+      "MAE": 1.670376195114183,
+      "bias": 0.1528082291562183
+    },
+    "general_time_loss_sec|XGBoost|seed_mean": {
+      "R2": 0.9566219257649452,
+      "RMSE": 1.7530170404966197,
+      "MAE": 1.2595949448791754,
+      "bias": 0.1857134622267904
+    },
+    "general_time_loss_sec|Ensemble|single_run": {
+      "R2": 0.9410037343878624,
+      "RMSE": 2.094815991054998,
+      "MAE": 1.557084000303436,
+      "bias": 0.0811793579853513
+    },
+    "general_time_loss_sec|Ensemble|seed_mean": {
+      "R2": 0.9652288170649332,
+      "RMSE": 1.56949789245673,
+      "MAE": 1.1137287004982506,
+      "bias": 0.1140845910559234
+    }
+  },
+  "cv": {
+    "general_time_loss_sec|CatBoost": {
+      "R2": 0.897011486523194,
+      "R2_SD": 0.0546940255828305,
+      "RMSE": 2.704146920134347
+    },
+    "general_time_loss_sec|Ensemble": {
+      "R2": 0.9036156012296476,
+      "R2_SD": 0.0544643457837554,
+      "RMSE": 2.5990533373172697
+    },
+    "general_time_loss_sec|GaussianProcess": {
+      "R2": 0.9214413650500776,
+      "R2_SD": 0.0445871172183242,
+      "RMSE": 2.322077004983713
+    },
+    "general_time_loss_sec|LightGBM": {
+      "R2": 0.907381919840716,
+      "R2_SD": 0.0610737122267461,
+      "RMSE": 2.5077374928206333
+    },
+    "general_time_loss_sec|RandomForest": {
+      "R2": 0.8896038316511274,
+      "R2_SD": 0.0724949161321101,
+      "RMSE": 2.731862045040168
+    },
+    "general_time_loss_sec|Ridge": {
+      "R2": 0.3690493704669066,
+      "R2_SD": 0.1675588475055613,
+      "RMSE": 6.867199008923284
+    },
+    "general_time_loss_sec|XGBoost": {
+      "R2": 0.9001674998313728,
+      "R2_SD": 0.0566634973639596,
+      "RMSE": 2.6386519975583034
+    },
+    "mean_time_loss_sec|CatBoost": {
+      "R2": 0.9193243896759066,
+      "R2_SD": 0.0365642947608495,
+      "RMSE": 2.6535906371278584
+    },
+    "mean_time_loss_sec|Ensemble": {
+      "R2": 0.9222554427043717,
+      "R2_SD": 0.0319067930698566,
+      "RMSE": 2.616084779131272
+    },
+    "mean_time_loss_sec|GaussianProcess": {
+      "R2": 0.9248260679350856,
+      "R2_SD": 0.0299733598898445,
+      "RMSE": 2.558908102212959
+    },
+    "mean_time_loss_sec|LightGBM": {
+      "R2": 0.9166772560948008,
+      "R2_SD": 0.0313704049567247,
+      "RMSE": 2.6925750184792516
+    },
+    "mean_time_loss_sec|RandomForest": {
+      "R2": 0.8977468785544753,
+      "R2_SD": 0.0296842823716861,
+      "RMSE": 3.0082659059437975
+    },
+    "mean_time_loss_sec|Ridge": {
+      "R2": 0.4358058520265981,
+      "R2_SD": 0.0901018022297179,
+      "RMSE": 7.181415773724252
+    },
+    "mean_time_loss_sec|XGBoost": {
+      "R2": 0.915577719836828,
+      "R2_SD": 0.0290956106959996,
+      "RMSE": 2.738730350621101
+    },
+    "total_vkt_km|CatBoost": {
+      "R2": 0.9859158963465192,
+      "R2_SD": 0.0021040548625229,
+      "RMSE": 79.4647684448043
+    },
+    "total_vkt_km|Ensemble": {
+      "R2": 0.981101137135413,
+      "R2_SD": 0.0039414301866268,
+      "RMSE": 91.8525428304628
+    },
+    "total_vkt_km|GaussianProcess": {
+      "R2": 0.9935840563292128,
+      "R2_SD": 0.0013467908461471,
+      "RMSE": 53.50463817203437
+    },
+    "total_vkt_km|LightGBM": {
+      "R2": 0.971555451167219,
+      "R2_SD": 0.0064810871331031,
+      "RMSE": 112.15182716328984
+    },
+    "total_vkt_km|RandomForest": {
+      "R2": 0.948290832250421,
+      "R2_SD": 0.0142635646581633,
+      "RMSE": 151.117134158821
+    },
+    "total_vkt_km|Ridge": {
+      "R2": 0.9444527942663348,
+      "R2_SD": 0.0056839621250397,
+      "RMSE": 157.97183782601013
+    },
+    "total_vkt_km|XGBoost": {
+      "R2": 0.9704257485856824,
+      "R2_SD": 0.0070791186998406,
+      "RMSE": 114.68828793887742
+    }
+  },
+  "noise": [
+    {
+      "source": "replicated development settings",
+      "target": "mean_time_loss_sec",
+      "settings": 24,
+      "seeds_per_setting": 10.0,
+      "within_SD": 1.4335802667020214,
+      "between_SD": 11.580171333156496,
+      "noise_share": 0.0150941539038343,
+      "R2_ceiling_single_run": 0.9849058460961656,
+      "RMSE_floor_single_run": 1.4335802667020214,
+      "ICC": 0.9849058460961656
+    },
+    {
+      "source": "replicated development settings",
+      "target": "total_vkt_km",
+      "settings": 24,
+      "seeds_per_setting": 10.0,
+      "within_SD": 41.20266143686521,
+      "between_SD": 782.2403707075918,
+      "noise_share": 0.0027667304307012,
+      "R2_ceiling_single_run": 0.9972332695692988,
+      "RMSE_floor_single_run": 41.20266143686521,
+      "ICC": 0.9972332695692988
+    },
+    {
+      "source": "replicated development settings",
+      "target": "general_time_loss_sec",
+      "settings": 24,
+      "seeds_per_setting": 10.0,
+      "within_SD": 1.503989762424341,
+      "between_SD": 9.006196178090036,
+      "noise_share": 0.0271307276126395,
+      "R2_ceiling_single_run": 0.9728692723873604,
+      "RMSE_floor_single_run": 1.503989762424341,
+      "ICC": 0.9728692723873604
+    },
+    {
+      "source": "replicated development settings",
+      "target": "total_completed_trips",
+      "settings": 24,
+      "seeds_per_setting": 10.0,
+      "within_SD": 24.124906447717287,
+      "between_SD": 600.771032650125,
+      "noise_share": 0.00160995430531,
+      "R2_ceiling_single_run": 0.99839004569469,
+      "RMSE_floor_single_run": 24.124906447717287,
+      "ICC": 0.99839004569469
+    },
+    {
+      "source": "replicated development settings",
+      "target": "p90_time_loss_sec",
+      "settings": 24,
+      "seeds_per_setting": 10.0,
+      "within_SD": 4.298040455372487,
+      "between_SD": 28.60718526972567,
+      "noise_share": 0.0220747801539215,
+      "R2_ceiling_single_run": 0.9779252198460784,
+      "RMSE_floor_single_run": 4.298040455372487,
+      "ICC": 0.9779252198460784
+    },
+    {
+      "source": "test settings",
+      "target": "mean_time_loss_sec",
+      "settings": 200,
+      "seeds_per_setting": 5.0,
+      "within_SD": 1.6080935920980162,
+      "between_SD": 9.013634057961855,
+      "noise_share": 0.0308471520709142,
+      "R2_ceiling_single_run": 0.9691528479290856,
+      "RMSE_floor_single_run": 1.6080935920980162,
+      "ICC": 0.9691528479290856
+    },
+    {
+      "source": "test settings",
+      "target": "total_vkt_km",
+      "settings": 200,
+      "seeds_per_setting": 5.0,
+      "within_SD": 36.79244070114306,
+      "between_SD": 670.2032296943839,
+      "noise_share": 0.0030046735019595,
+      "R2_ceiling_single_run": 0.9969953264980403,
+      "RMSE_floor_single_run": 36.79244070114306,
+      "ICC": 0.9969953264980403
+    },
+    {
+      "source": "test settings",
+      "target": "general_time_loss_sec",
+      "settings": 200,
+      "seeds_per_setting": 5.0,
+      "within_SD": 1.6521852358648652,
+      "between_SD": 8.405586352948573,
+      "noise_share": 0.0371979042777893,
+      "R2_ceiling_single_run": 0.9628020957222106,
+      "RMSE_floor_single_run": 1.6521852358648652,
+      "ICC": 0.9628020957222108
+    }
+  ],
+  "intervals": [
+    {
+      "target": "mean_time_loss_sec",
+      "method": "CQR",
+      "estimand": "single_run",
+      "n": 200,
+      "coverage": 0.9,
+      "CI_low": 0.8505941875672826,
+      "CI_high": 0.934329551330904,
+      "mean_width": 11.2421331090801,
+      "median_width": 8.34160321964157,
+      "interval_score": 13.9896668101274,
+      "qhat": 1.123327522834188
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "CQR",
+      "estimand": "seed_mean",
+      "n": 200,
+      "coverage": 0.925,
+      "CI_low": 0.8799563897637055,
+      "CI_high": 0.954025082815618,
+      "mean_width": 11.2421331090801,
+      "median_width": 8.34160321964157,
+      "interval_score": 13.24490618637491,
+      "qhat": 1.123327522834188
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "CQR",
+      "estimand": "new_runs",
+      "n": 1000,
+      "coverage": 0.883,
+      "CI_low": 0.852,
+      "CI_high": 0.911,
+      "mean_width": 11.2421331090801,
+      "median_width": 8.34160321964157,
+      "interval_score": 14.563832860433866,
+      "qhat": 1.123327522834188
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "SplitCP",
+      "estimand": "single_run",
+      "n": 200,
+      "coverage": 0.895,
+      "CI_low": 0.8448196800887696,
+      "CI_high": 0.93029251207319,
+      "mean_width": 6.080028260394158,
+      "median_width": 6.080028260394158,
+      "interval_score": 10.674259419276398,
+      "qhat": 3.040014130197079
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "SplitCP",
+      "estimand": "seed_mean",
+      "n": 200,
+      "coverage": 0.935,
+      "CI_low": 0.8919809207009312,
+      "CI_high": 0.961623645350847,
+      "mean_width": 6.080028260394158,
+      "median_width": 6.080028260394158,
+      "interval_score": 8.775202357255225,
+      "qhat": 3.040014130197079
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "SplitCP",
+      "estimand": "new_runs",
+      "n": 1000,
+      "coverage": 0.877,
+      "CI_low": 0.845,
+      "CI_high": 0.905025,
+      "mean_width": 6.080028260394158,
+      "median_width": 6.080028260394158,
+      "interval_score": 10.742919881679962,
+      "qhat": 3.040014130197079
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "GP",
+      "estimand": "single_run",
+      "n": 200,
+      "coverage": 0.89,
+      "CI_low": 0.839073090026985,
+      "CI_high": 0.926227555398747,
+      "mean_width": 6.596334186319021,
+      "median_width": 6.453082765635742,
+      "interval_score": 10.708929463717986,
+      "qhat": 0.0
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "GP",
+      "estimand": "seed_mean",
+      "n": 200,
+      "coverage": 0.925,
+      "CI_low": 0.8799563897637055,
+      "CI_high": 0.954025082815618,
+      "mean_width": 6.596334186319021,
+      "median_width": 6.453082765635742,
+      "interval_score": 10.117257999097856,
+      "qhat": 0.0
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "GP",
+      "estimand": "new_runs",
+      "n": 1000,
+      "coverage": 0.877,
+      "CI_low": 0.843,
+      "CI_high": 0.91,
+      "mean_width": 6.596334186319021,
+      "median_width": 6.453082765635742,
+      "interval_score": 11.698667412870684,
+      "qhat": 0.0
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "GP-CP",
+      "estimand": "single_run",
+      "n": 200,
+      "coverage": 0.875,
+      "CI_low": 0.8219857499741765,
+      "CI_high": 0.9138802552428736,
+      "mean_width": 5.985404232210044,
+      "median_width": 5.855420269086082,
+      "interval_score": 10.822094925696124,
+      "qhat": 1.4925128991403165
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "GP-CP",
+      "estimand": "seed_mean",
+      "n": 200,
+      "coverage": 0.915,
+      "CI_low": 0.8681041292843443,
+      "CI_high": 0.9462542498225244,
+      "mean_width": 5.985404232210044,
+      "median_width": 5.855420269086082,
+      "interval_score": 9.999713748389627,
+      "qhat": 1.4925128991403165
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "GP-CP",
+      "estimand": "new_runs",
+      "n": 1000,
+      "coverage": 0.852,
+      "CI_low": 0.816,
+      "CI_high": 0.886,
+      "mean_width": 5.985404232210044,
+      "median_width": 5.855420269086082,
+      "interval_score": 11.91349040514751,
+      "qhat": 1.4925128991403165
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "CQR",
+      "estimand": "single_run",
+      "n": 200,
+      "coverage": 0.87,
+      "CI_low": 0.8163364812775159,
+      "CI_high": 0.9097179772033068,
+      "mean_width": 788.7771473816476,
+      "median_width": 745.8957026830515,
+      "interval_score": 1007.943442070837,
+      "qhat": 62.1306469138209
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "CQR",
+      "estimand": "seed_mean",
+      "n": 200,
+      "coverage": 0.88,
+      "CI_low": 0.8276574790170326,
+      "CI_high": 0.9180200729362448,
+      "mean_width": 788.7771473816476,
+      "median_width": 745.8957026830515,
+      "interval_score": 1021.2072429442352,
+      "qhat": 62.1306469138209
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "CQR",
+      "estimand": "new_runs",
+      "n": 1000,
+      "coverage": 0.868,
+      "CI_low": 0.824,
+      "CI_high": 0.907025,
+      "mean_width": 788.7771473816476,
+      "median_width": 745.8957026830515,
+      "interval_score": 1034.5662836633514,
+      "qhat": 62.1306469138209
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "SplitCP",
+      "estimand": "single_run",
+      "n": 200,
+      "coverage": 0.96,
+      "CI_low": 0.923067931799067,
+      "CI_high": 0.9795943679338476,
+      "mean_width": 219.62873416593945,
+      "median_width": 219.62873416593948,
+      "interval_score": 267.5981671351751,
+      "qhat": 109.81436708296974
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "SplitCP",
+      "estimand": "seed_mean",
+      "n": 200,
+      "coverage": 0.935,
+      "CI_low": 0.8919809207009312,
+      "CI_high": 0.961623645350847,
+      "mean_width": 219.62873416593945,
+      "median_width": 219.62873416593948,
+      "interval_score": 277.822139150542,
+      "qhat": 109.81436708296974
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "SplitCP",
+      "estimand": "new_runs",
+      "n": 1000,
+      "coverage": 0.905,
+      "CI_low": 0.875,
+      "CI_high": 0.933,
+      "mean_width": 219.62873416593945,
+      "median_width": 219.62873416593948,
+      "interval_score": 304.26830050775965,
+      "qhat": 109.81436708296974
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "GP",
+      "estimand": "single_run",
+      "n": 200,
+      "coverage": 0.935,
+      "CI_low": 0.8919809207009312,
+      "CI_high": 0.961623645350847,
+      "mean_width": 166.79797405460536,
+      "median_width": 162.77640174028,
+      "interval_score": 198.2786797782164,
+      "qhat": 0.0
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "GP",
+      "estimand": "seed_mean",
+      "n": 200,
+      "coverage": 0.955,
+      "CI_low": 0.9167032959981803,
+      "CI_high": 0.976147456998507,
+      "mean_width": 166.79797405460536,
+      "median_width": 162.77640174028,
+      "interval_score": 188.27365107581716,
+      "qhat": 0.0
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "GP",
+      "estimand": "new_runs",
+      "n": 1000,
+      "coverage": 0.909,
+      "CI_low": 0.884,
+      "CI_high": 0.933,
+      "mean_width": 166.79797405460536,
+      "median_width": 162.77640174028,
+      "interval_score": 224.27676937393304,
+      "qhat": 0.0
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "GP-CP",
+      "estimand": "single_run",
+      "n": 200,
+      "coverage": 0.935,
+      "CI_low": 0.8919809207009312,
+      "CI_high": 0.961623645350847,
+      "mean_width": 168.85759349008558,
+      "median_width": 164.78636284779373,
+      "interval_score": 198.9842406618166,
+      "qhat": 1.6651642603257135
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "GP-CP",
+      "estimand": "seed_mean",
+      "n": 200,
+      "coverage": 0.955,
+      "CI_low": 0.9167032959981803,
+      "CI_high": 0.976147456998507,
+      "mean_width": 168.85759349008558,
+      "median_width": 164.78636284779373,
+      "interval_score": 189.3560522252544,
+      "qhat": 1.6651642603257135
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "GP-CP",
+      "estimand": "new_runs",
+      "n": 1000,
+      "coverage": 0.913,
+      "CI_low": 0.889,
+      "CI_high": 0.936,
+      "mean_width": 168.85759349008558,
+      "median_width": 164.78636284779373,
+      "interval_score": 224.49555286249552,
+      "qhat": 1.6651642603257135
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "CQR",
+      "estimand": "single_run",
+      "n": 200,
+      "coverage": 0.805,
+      "CI_low": 0.7445595562538726,
+      "CI_high": 0.8539447946559949,
+      "mean_width": 8.587390322226305,
+      "median_width": 6.070181455006349,
+      "interval_score": 12.831787187840046,
+      "qhat": 0.4814682027534047
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "CQR",
+      "estimand": "seed_mean",
+      "n": 200,
+      "coverage": 0.905,
+      "CI_low": 0.8563983883518006,
+      "CI_high": 0.9383368972826136,
+      "mean_width": 8.587390322226305,
+      "median_width": 6.070181455006349,
+      "interval_score": 10.81391639582458,
+      "qhat": 0.4814682027534047
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "CQR",
+      "estimand": "new_runs",
+      "n": 1000,
+      "coverage": 0.816,
+      "CI_low": 0.778,
+      "CI_high": 0.852,
+      "mean_width": 8.587390322226305,
+      "median_width": 6.070181455006349,
+      "interval_score": 13.137531916952945,
+      "qhat": 0.4814682027534047
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "SplitCP",
+      "estimand": "single_run",
+      "n": 200,
+      "coverage": 0.85,
+      "CI_low": 0.7939442071583334,
+      "CI_high": 0.89286406437758,
+      "mean_width": 5.526262235709083,
+      "median_width": 5.526262235709083,
+      "interval_score": 9.53126071880364,
+      "qhat": 2.7631311178545417
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "SplitCP",
+      "estimand": "seed_mean",
+      "n": 200,
+      "coverage": 0.93,
+      "CI_low": 0.8859451911438936,
+      "CI_high": 0.9578478281716571,
+      "mean_width": 5.526262235709083,
+      "median_width": 5.526262235709083,
+      "interval_score": 7.5918513375984755,
+      "qhat": 2.7631311178545417
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "SplitCP",
+      "estimand": "new_runs",
+      "n": 1000,
+      "coverage": 0.848,
+      "CI_low": 0.815975,
+      "CI_high": 0.878025,
+      "mean_width": 5.526262235709083,
+      "median_width": 5.526262235709083,
+      "interval_score": 10.084150505578254,
+      "qhat": 2.7631311178545417
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "GP",
+      "estimand": "single_run",
+      "n": 200,
+      "coverage": 0.9,
+      "CI_low": 0.8505941875672826,
+      "CI_high": 0.934329551330904,
+      "mean_width": 6.118223643894716,
+      "median_width": 6.042364367457452,
+      "interval_score": 8.211700870399989,
+      "qhat": 0.0
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "GP",
+      "estimand": "seed_mean",
+      "n": 200,
+      "coverage": 0.97,
+      "CI_low": 0.9361057075454808,
+      "CI_high": 0.9861796856598888,
+      "mean_width": 6.118223643894716,
+      "median_width": 6.042364367457452,
+      "interval_score": 7.338868737844389,
+      "qhat": 0.0
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "GP",
+      "estimand": "new_runs",
+      "n": 1000,
+      "coverage": 0.897,
+      "CI_low": 0.869,
+      "CI_high": 0.922,
+      "mean_width": 6.118223643894716,
+      "median_width": 6.042364367457452,
+      "interval_score": 9.094476823041552,
+      "qhat": 0.0
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "GP-CP",
+      "estimand": "single_run",
+      "n": 200,
+      "coverage": 0.875,
+      "CI_low": 0.8219857499741765,
+      "CI_high": 0.9138802552428736,
+      "mean_width": 5.676368596787926,
+      "median_width": 5.605987839299075,
+      "interval_score": 8.290970852478873,
+      "qhat": 1.526063121876414
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "GP-CP",
+      "estimand": "seed_mean",
+      "n": 200,
+      "coverage": 0.965,
+      "CI_low": 0.9295293884777092,
+      "CI_high": 0.9829444579914328,
+      "mean_width": 5.676368596787926,
+      "median_width": 5.605987839299075,
+      "interval_score": 7.047075119693041,
+      "qhat": 1.526063121876414
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "GP-CP",
+      "estimand": "new_runs",
+      "n": 1000,
+      "coverage": 0.868,
+      "CI_low": 0.837,
+      "CI_high": 0.896,
+      "mean_width": 5.676368596787926,
+      "median_width": 5.605987839299075,
+      "interval_score": 9.188816576394473,
+      "qhat": 1.526063121876414
+    }
+  ],
+  "recourse_overview": [
+    {
+      "arm": "random",
+      "scenarios": 20,
+      "mean_achieved": 6.769226016458248,
+      "median_achieved": 5.892737599766923,
+      "delay_target_rate": 0.2,
+      "joint_rate": 0.2,
+      "mean_general_reduction": 7.089778903463111,
+      "general_target_rate": 0.2,
+      "mean_completion_ratio": 0.9921536870241277,
+      "mean_predicted": 6.452826229523811
+    },
+    {
+      "arm": "recourse",
+      "scenarios": 20,
+      "mean_achieved": 15.75569283167824,
+      "median_achieved": 15.29828093533558,
+      "delay_target_rate": 0.5,
+      "joint_rate": 0.5,
+      "mean_general_reduction": 17.052468839476255,
+      "general_target_rate": 0.6,
+      "mean_completion_ratio": 1.00001670443617,
+      "mean_predicted": 16.99158987752581
+    }
+  ],
+  "mechanism_shares": [
+    {
+      "background": "car-oriented",
+      "outcome": "mean_time_loss_sec",
+      "component": "departureVariation",
+      "share": 0.861003052669943
+    },
+    {
+      "background": "car-oriented",
+      "outcome": "mean_time_loss_sec",
+      "component": "busHeadway",
+      "share": 0.1375032818133096
+    },
+    {
+      "background": "car-oriented",
+      "outcome": "mean_time_loss_sec",
+      "component": "interaction",
+      "share": 0.0014936655167472
+    },
+    {
+      "background": "car-oriented",
+      "outcome": "general_time_loss_sec",
+      "component": "departureVariation",
+      "share": 0.998715005722448
+    },
+    {
+      "background": "car-oriented",
+      "outcome": "general_time_loss_sec",
+      "component": "busHeadway",
+      "share": 0.0001245628143099
+    },
+    {
+      "background": "car-oriented",
+      "outcome": "general_time_loss_sec",
+      "component": "interaction",
+      "share": 0.0011604314632421
+    },
+    {
+      "background": "midpoint",
+      "outcome": "mean_time_loss_sec",
+      "component": "departureVariation",
+      "share": 0.7886208647440429
+    },
+    {
+      "background": "midpoint",
+      "outcome": "mean_time_loss_sec",
+      "component": "busHeadway",
+      "share": 0.2103394144757337
+    },
+    {
+      "background": "midpoint",
+      "outcome": "mean_time_loss_sec",
+      "component": "interaction",
+      "share": 0.0010397207802234
+    },
+    {
+      "background": "midpoint",
+      "outcome": "general_time_loss_sec",
+      "component": "departureVariation",
+      "share": 0.998791933953896
+    },
+    {
+      "background": "midpoint",
+      "outcome": "general_time_loss_sec",
+      "component": "busHeadway",
+      "share": 9.732299951368468e-05
+    },
+    {
+      "background": "midpoint",
+      "outcome": "general_time_loss_sec",
+      "component": "interaction",
+      "share": 0.0011107430465903
+    }
+  ],
+  "mechanism_contrasts_mean": [
+    {
+      "background": "car-oriented",
+      "outcome": "demand_bus_in_window",
+      "mean_difference": -84.0,
+      "CI_low": -84.0,
+      "CI_high": -84.0
+    },
+    {
+      "background": "car-oriented",
+      "outcome": "demand_default_in_window",
+      "mean_difference": 0.825,
+      "CI_low": 0.1875,
+      "CI_high": 1.475
+    },
+    {
+      "background": "car-oriented",
+      "outcome": "general_time_loss_sec",
+      "mean_difference": -0.09792365288421115,
+      "CI_low": -0.9115718150835268,
+      "CI_high": 0.6890600427070324
+    },
+    {
+      "background": "car-oriented",
+      "outcome": "mean_time_loss_sec",
+      "mean_difference": -13.904689744954407,
+      "CI_low": -14.71839411403838,
+      "CI_high": -13.124506352040225
+    },
+    {
+      "background": "car-oriented",
+      "outcome": "mean_waiting_sec",
+      "mean_difference": -9.360210801237896,
+      "CI_low": -9.991828901616664,
+      "CI_high": -8.740872277815342
+    },
+    {
+      "background": "car-oriented",
+      "outcome": "served_fraction",
+      "mean_difference": 0.00234583697667805,
+      "CI_low": 0.0020254363146631,
+      "CI_high": 0.00266447608433865
+    },
+    {
+      "background": "car-oriented",
+      "outcome": "total_completed_trips",
+      "mean_difference": -91.1625,
+      "CI_low": -93.1,
+      "CI_high": -89.2
+    },
+    {
+      "background": "car-oriented",
+      "outcome": "total_vkt_km",
+      "mean_difference": -416.02894850000007,
+      "CI_low": -418.35968208750006,
+      "CI_high": -413.554859371875
+    },
+    {
+      "background": "car-oriented",
+      "outcome": "type_bus_completed",
+      "mean_difference": -80.0,
+      "CI_low": -80.0,
+      "CI_high": -80.0
+    },
+    {
+      "background": "car-oriented",
+      "outcome": "type_bus_delay",
+      "mean_difference": -2.931214673913039,
+      "CI_low": -8.87254137228261,
+      "CI_high": 3.272308820199288
+    },
+    {
+      "background": "car-oriented",
+      "outcome": "type_default_delay",
+      "mean_difference": -0.19760169936264943,
+      "CI_low": -1.089383494291833,
+      "CI_high": 0.6512730229112155
+    },
+    {
+      "background": "car-oriented",
+      "outcome": "type_random_delay",
+      "mean_difference": -0.3972813595553334,
+      "CI_low": -1.7238543493752876,
+      "CI_high": 1.027887180768542
+    },
+    {
+      "background": "midpoint",
+      "outcome": "demand_bus_in_window",
+      "mean_difference": -84.0,
+      "CI_low": -84.0,
+      "CI_high": -84.0
+    },
+    {
+      "background": "midpoint",
+      "outcome": "demand_default_in_window",
+      "mean_difference": 0.4875,
+      "CI_low": -0.1125,
+      "CI_high": 1.1125
+    },
+    {
+      "background": "midpoint",
+      "outcome": "general_time_loss_sec",
+      "mean_difference": -0.27596773913391476,
+      "CI_low": -1.2608353005620168,
+      "CI_high": 0.7248844773144575
+    },
+    {
+      "background": "midpoint",
+      "outcome": "mean_time_loss_sec",
+      "mean_difference": -17.448218357023542,
+      "CI_low": -18.438773678506074,
+      "CI_high": -16.44553485562431
+    },
+    {
+      "background": "midpoint",
+      "outcome": "mean_waiting_sec",
+      "mean_difference": -11.859465992664116,
+      "CI_low": -12.620580002808005,
+      "CI_high": -11.084532202897247
+    },
+    {
+      "background": "midpoint",
+      "outcome": "served_fraction",
+      "mean_difference": 0.0032196824731172626,
+      "CI_low": 0.00277943877162775,
+      "CI_high": 0.0036634356379981873
+    },
+    {
+      "background": "midpoint",
+      "outcome": "total_completed_trips",
+      "mean_difference": -91.0625,
+      "CI_low": -92.7375,
+      "CI_high": -89.525
+    },
+    {
+      "background": "midpoint",
+      "outcome": "total_vkt_km",
+      "mean_difference": -414.7425055,
+      "CI_low": -416.7341349,
+      "CI_high": -412.99159347500006
+    },
+    {
+      "background": "midpoint",
+      "outcome": "type_bus_completed",
+      "mean_difference": -80.0,
+      "CI_low": -80.0,
+      "CI_high": -80.0
+    },
+    {
+      "background": "midpoint",
+      "outcome": "type_bus_delay",
+      "mean_difference": -1.5681621376811485,
+      "CI_low": -7.878135971467368,
+      "CI_high": 4.498026664402181
+    },
+    {
+      "background": "midpoint",
+      "outcome": "type_default_delay",
+      "mean_difference": -0.4135840574206236,
+      "CI_low": -1.4998980059163034,
+      "CI_high": 0.6883851103792449
+    },
+    {
+      "background": "midpoint",
+      "outcome": "type_random_delay",
+      "mean_difference": -0.38999531092913314,
+      "CI_low": -2.0283041572930847,
+      "CI_high": 1.3625990806435948
+    }
+  ],
+  "sobol_sumo": [
+    {
+      "parameter": "carRate",
+      "S1": 0.0298913066073845,
+      "S1_low": -0.1884634769476565,
+      "S1_high": 0.2424943556524187,
+      "ST": 0.0445861718386618,
+      "ST_low": 0.0362323333790247,
+      "ST_high": 0.0547271560580578,
+      "total_variance": 97.74591598112802,
+      "noise_variance": 0.0,
+      "target": "mean_time_loss_sec",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "carPreference",
+      "S1": -0.0151094261183746,
+      "S1_low": -0.22703767112147,
+      "S1_high": 0.1953795238837267,
+      "ST": 0.0390541084900962,
+      "ST_low": 0.0310218061131655,
+      "ST_high": 0.0492514544127209,
+      "total_variance": 97.74591598112802,
+      "noise_variance": 0.0,
+      "target": "mean_time_loss_sec",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "unemploymentRate",
+      "S1": -0.0314943759466858,
+      "S1_low": -0.2271885285101979,
+      "S1_high": 0.1677592373746788,
+      "ST": 0.0352186163847511,
+      "ST_low": 0.0267893562040692,
+      "ST_high": 0.0455957385421922,
+      "total_variance": 97.74591598112802,
+      "noise_variance": 0.0,
+      "target": "mean_time_loss_sec",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "freeTimeActivityRate",
+      "S1": -0.0635425783000103,
+      "S1_low": -0.247553170282426,
+      "S1_high": 0.1132723328157422,
+      "ST": 0.0294165555518917,
+      "ST_low": 0.023131892830686,
+      "ST_high": 0.0364058140371655,
+      "total_variance": 97.74591598112802,
+      "noise_variance": 0.0,
+      "target": "mean_time_loss_sec",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "departureVariation",
+      "S1": 0.7071283869194295,
+      "S1_low": -0.2734920131969504,
+      "S1_high": 1.716571637450886,
+      "ST": 0.7443676629299721,
+      "ST_low": 0.6412073490991228,
+      "ST_high": 0.856694979933123,
+      "total_variance": 97.74591598112802,
+      "noise_variance": 0.0,
+      "target": "mean_time_loss_sec",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "footDistanceLimit",
+      "S1": -0.1671329711910393,
+      "S1_low": -0.4611785721020636,
+      "S1_high": 0.1567214715859064,
+      "ST": 0.0953113373351998,
+      "ST_low": 0.0778986093120041,
+      "ST_high": 0.115461772074886,
+      "total_variance": 97.74591598112802,
+      "noise_variance": 0.0,
+      "target": "mean_time_loss_sec",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "busHeadway",
+      "S1": 0.0881769175834202,
+      "S1_low": -0.4057820153805307,
+      "S1_high": 0.586788947046983,
+      "ST": 0.2232420029156424,
+      "ST_low": 0.1762660869768439,
+      "ST_high": 0.2833706383949376,
+      "total_variance": 97.74591598112802,
+      "noise_variance": 0.0,
+      "target": "mean_time_loss_sec",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "uniformRandomTraffic",
+      "S1": -0.088089648615005,
+      "S1_low": -0.3015928609432355,
+      "S1_high": 0.1244667408119085,
+      "ST": 0.045385149426134,
+      "ST_low": 0.0361605054329369,
+      "ST_high": 0.0562291148825472,
+      "total_variance": 97.74591598112802,
+      "noise_variance": 0.0,
+      "target": "mean_time_loss_sec",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "morningPeakProp",
+      "S1": -0.1004730903698122,
+      "S1_low": -0.3155121099770817,
+      "S1_high": 0.1373827181606216,
+      "ST": 0.0503835089200228,
+      "ST_low": 0.0378608716704857,
+      "ST_high": 0.0645229423207312,
+      "total_variance": 97.74591598112802,
+      "noise_variance": 0.0,
+      "target": "mean_time_loss_sec",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "carRate",
+      "S1": 0.0305332827776703,
+      "S1_low": -0.1925897574064091,
+      "S1_high": 0.2482528640414772,
+      "ST": 0.0240667305677485,
+      "ST_low": 0.0171977967326152,
+      "ST_high": 0.0323994720004472,
+      "total_variance": 97.74591598112802,
+      "noise_variance": 2.055152381077439,
+      "target": "mean_time_loss_sec",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "carPreference",
+      "S1": -0.0154339315554268,
+      "S1_low": -0.2323330593121462,
+      "S1_high": 0.1997109553360326,
+      "ST": 0.0184158549876221,
+      "ST_low": 0.0116393778925396,
+      "ST_high": 0.0268183904445653,
+      "total_variance": 97.74591598112802,
+      "noise_variance": 2.055152381077439,
+      "target": "mean_time_loss_sec",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "unemploymentRate",
+      "S1": -0.0321707812681848,
+      "S1_low": -0.2324093014583266,
+      "S1_high": 0.1714270384185494,
+      "ST": 0.0144979879441289,
+      "ST_low": 0.0066943737887469,
+      "ST_high": 0.0234604720073517,
+      "total_variance": 97.74591598112802,
+      "noise_variance": 2.055152381077439,
+      "target": "mean_time_loss_sec",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "freeTimeActivityRate",
+      "S1": -0.0649072834834581,
+      "S1_low": -0.2537705178907964,
+      "S1_high": 0.11553513501638,
+      "ST": 0.0085713161385152,
+      "ST_low": 0.0022467606494783,
+      "ST_high": 0.0146957019453228,
+      "total_variance": 97.74591598112802,
+      "noise_variance": 2.055152381077439,
+      "target": "mean_time_loss_sec",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "departureVariation",
+      "S1": 0.7223153969654454,
+      "S1_low": -0.2793434375152834,
+      "S1_high": 1.7548178012697615,
+      "ST": 0.738877442281241,
+      "ST_low": 0.633293337872891,
+      "ST_high": 0.8532551433464077,
+      "total_variance": 97.74591598112802,
+      "noise_variance": 2.055152381077439,
+      "target": "mean_time_loss_sec",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "footDistanceLimit",
+      "S1": -0.1707224892466736,
+      "S1_low": -0.4706197299707773,
+      "S1_high": 0.1603853164274623,
+      "ST": 0.0758813214249877,
+      "ST_low": 0.0594388374760082,
+      "ST_high": 0.094648437362487,
+      "total_variance": 97.74591598112802,
+      "noise_variance": 2.055152381077439,
+      "target": "mean_time_loss_sec",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "busHeadway",
+      "S1": 0.0900706949482351,
+      "S1_low": -0.4147533782605589,
+      "S1_high": 0.599351958309516,
+      "ST": 0.2065595563850557,
+      "ST_low": 0.1602923542236769,
+      "ST_high": 0.2659748558915206,
+      "total_variance": 97.74591598112802,
+      "noise_variance": 2.055152381077439,
+      "target": "mean_time_loss_sec",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "uniformRandomTraffic",
+      "S1": -0.089981551702497,
+      "S1_low": -0.3083190475451514,
+      "S1_high": 0.1272352587168939,
+      "ST": 0.0248828678123239,
+      "ST_low": 0.0165970428975348,
+      "ST_high": 0.034216984302956,
+      "total_variance": 97.74591598112802,
+      "noise_variance": 2.055152381077439,
+      "target": "mean_time_loss_sec",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "morningPeakProp",
+      "S1": -0.102630952875443,
+      "S1_low": -0.3220687672643652,
+      "S1_high": 0.1402725635744847,
+      "ST": 0.0299885771697615,
+      "ST_low": 0.0170489813276947,
+      "ST_high": 0.0441175127794471,
+      "total_variance": 97.74591598112802,
+      "noise_variance": 2.055152381077439,
+      "target": "mean_time_loss_sec",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "carRate",
+      "S1": 0.0939122158291306,
+      "S1_low": -0.0314431802395394,
+      "S1_high": 0.21814039007958,
+      "ST": 0.1197323927065552,
+      "ST_low": 0.101753641163802,
+      "ST_high": 0.1401235137192231,
+      "total_variance": 454918.58936886425,
+      "noise_variance": 0.0,
+      "target": "total_vkt_km",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "carPreference",
+      "S1": 0.0106458747679843,
+      "S1_low": -0.0469187029629855,
+      "S1_high": 0.0623045749690267,
+      "ST": 0.0261995032241728,
+      "ST_low": 0.0216428038316576,
+      "ST_high": 0.0311491550512322,
+      "total_variance": 454918.58936886425,
+      "noise_variance": 0.0,
+      "target": "total_vkt_km",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "unemploymentRate",
+      "S1": 0.0084905987455945,
+      "S1_low": -0.0364417499767199,
+      "S1_high": 0.0539712571035012,
+      "ST": 0.0161721648405452,
+      "ST_low": 0.0134801376397154,
+      "ST_high": 0.0190382455368589,
+      "total_variance": 454918.58936886425,
+      "noise_variance": 0.0,
+      "target": "total_vkt_km",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "freeTimeActivityRate",
+      "S1": -0.0088709856562036,
+      "S1_low": -0.0315787064355185,
+      "S1_high": 0.0162583351768158,
+      "ST": 0.0044448755956767,
+      "ST_low": 0.0038387642372469,
+      "ST_high": 0.0051464421168131,
+      "total_variance": 454918.58936886425,
+      "noise_variance": 0.0,
+      "target": "total_vkt_km",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "departureVariation",
+      "S1": -0.0003192541889062,
+      "S1_low": -0.0197906141162562,
+      "S1_high": 0.0210034404796028,
+      "ST": 0.0036490919464357,
+      "ST_low": 0.0031822392659579,
+      "ST_high": 0.0042427659356165,
+      "total_variance": 454918.58936886425,
+      "noise_variance": 0.0,
+      "target": "total_vkt_km",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "footDistanceLimit",
+      "S1": 0.7912869770761056,
+      "S1_low": 0.477709330154091,
+      "S1_high": 1.1166961048303872,
+      "ST": 0.851127718121377,
+      "ST_low": 0.7562751877840941,
+      "ST_high": 0.9471739325314334,
+      "total_variance": 454918.58936886425,
+      "noise_variance": 0.0,
+      "target": "total_vkt_km",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "busHeadway",
+      "S1": 0.0006805426820261,
+      "S1_low": -0.0522486029369978,
+      "S1_high": 0.0477523473468038,
+      "ST": 0.0205936441288922,
+      "ST_low": 0.0172581824871575,
+      "ST_high": 0.024157274339447,
+      "total_variance": 454918.58936886425,
+      "noise_variance": 0.0,
+      "target": "total_vkt_km",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "uniformRandomTraffic",
+      "S1": 0.0112025582751728,
+      "S1_low": -0.0422459403838789,
+      "S1_high": 0.0570976567137844,
+      "ST": 0.0197305294010406,
+      "ST_low": 0.0167305805819159,
+      "ST_high": 0.0229956173227414,
+      "total_variance": 454918.58936886425,
+      "noise_variance": 0.0,
+      "target": "total_vkt_km",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "morningPeakProp",
+      "S1": -0.0105858761220665,
+      "S1_low": -0.0391355577368016,
+      "S1_high": 0.0177349177805646,
+      "ST": 0.0066359395219301,
+      "ST_low": 0.0055011207294562,
+      "ST_high": 0.0078403184323637,
+      "total_variance": 454918.58936886425,
+      "noise_variance": 0.0,
+      "target": "total_vkt_km",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "carRate",
+      "S1": 0.0942639889642667,
+      "S1_low": -0.0315607519529258,
+      "S1_high": 0.2189501923550674,
+      "ST": 0.1164351166999938,
+      "ST_low": 0.0985033069670744,
+      "ST_high": 0.1368095176450853,
+      "total_variance": 454918.58936886425,
+      "noise_variance": 1697.6593094809398,
+      "target": "total_vkt_km",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "carPreference",
+      "S1": 0.0106857517180737,
+      "S1_low": -0.0470962757855336,
+      "S1_high": 0.0625394125854482,
+      "ST": 0.0225518749500063,
+      "ST_low": 0.0181334124058866,
+      "ST_high": 0.0273907534321091,
+      "total_variance": 454918.58936886425,
+      "noise_variance": 1697.6593094809398,
+      "target": "total_vkt_km",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "unemploymentRate",
+      "S1": 0.0085224025371838,
+      "S1_low": -0.0365794969841902,
+      "S1_high": 0.0541626591923562,
+      "ST": 0.012486976508519,
+      "ST_low": 0.0098622083944181,
+      "ST_high": 0.0153665268290016,
+      "total_variance": 454918.58936886425,
+      "noise_variance": 1697.6593094809398,
+      "target": "total_vkt_km",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "freeTimeActivityRate",
+      "S1": -0.0089042142879474,
+      "S1_low": -0.0316996827227733,
+      "S1_high": 0.0163181567827739,
+      "ST": 0.0007157595885563,
+      "ST_low": 0.0001648587946527,
+      "ST_high": 0.0013362597605961,
+      "total_variance": 454918.58936886425,
+      "noise_variance": 1697.6593094809398,
+      "target": "total_vkt_km",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "departureVariation",
+      "S1": -0.0003204500402227,
+      "S1_low": -0.0198630411402595,
+      "S1_high": 0.0210809022639798,
+      "ST": -8.300487959852498e-05,
+      "ST_low": -0.0005379685987069,
+      "ST_high": 0.0004388350458907,
+      "total_variance": 454918.58936886425,
+      "noise_variance": 1697.6593094809398,
+      "target": "total_vkt_km",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "footDistanceLimit",
+      "S1": 0.7942509525106212,
+      "S1_low": 0.4794542409769312,
+      "S1_high": 1.120845507753525,
+      "ST": 0.8505700774686786,
+      "ST_low": 0.7553814238835126,
+      "ST_high": 0.9469746346251462,
+      "total_variance": 454918.58936886425,
+      "noise_variance": 1697.6593094809398,
+      "target": "total_vkt_km",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "busHeadway",
+      "S1": 0.0006830918353043,
+      "S1_low": -0.0524399544786461,
+      "S1_high": 0.0479277979169624,
+      "ST": 0.0169250176213045,
+      "ST_low": 0.0136495882477491,
+      "ST_high": 0.0203542933684761,
+      "total_variance": 454918.58936886425,
+      "noise_variance": 1697.6593094809398,
+      "target": "total_vkt_km",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "uniformRandomTraffic",
+      "S1": 0.0112445204311204,
+      "S1_low": -0.0424034127647121,
+      "S1_high": 0.0573201275779233,
+      "ST": 0.0160586698681099,
+      "ST_low": 0.013100332877543,
+      "ST_high": 0.0191762680870029,
+      "total_variance": 454918.58936886425,
+      "noise_variance": 1697.6593094809398,
+      "target": "total_vkt_km",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "morningPeakProp",
+      "S1": -0.0106255283312998,
+      "S1_low": -0.0392813679632896,
+      "S1_high": 0.0178009574858147,
+      "ST": 0.0029150307264043,
+      "ST_low": 0.0018224845536009,
+      "ST_high": 0.0040822186312981,
+      "total_variance": 454918.58936886425,
+      "noise_variance": 1697.6593094809398,
+      "target": "total_vkt_km",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "carRate",
+      "S1": 0.066733645097506,
+      "S1_low": -0.1669395664584652,
+      "S1_high": 0.309662778370755,
+      "ST": 0.0515094435522842,
+      "ST_low": 0.0414213121836741,
+      "ST_high": 0.0657353359259189,
+      "total_variance": 77.80521904542071,
+      "noise_variance": 0.0,
+      "target": "general_time_loss_sec",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "carPreference",
+      "S1": -0.0007040476446158,
+      "S1_low": -0.2661927160267746,
+      "S1_high": 0.2710867444694797,
+      "ST": 0.0613231832403322,
+      "ST_low": 0.0485725479363879,
+      "ST_high": 0.0770344761616979,
+      "total_variance": 77.80521904542071,
+      "noise_variance": 0.0,
+      "target": "general_time_loss_sec",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "unemploymentRate",
+      "S1": -0.0109466032629842,
+      "S1_low": -0.2472376018794654,
+      "S1_high": 0.2336584997200672,
+      "ST": 0.0489680314334996,
+      "ST_low": 0.0383900468079011,
+      "ST_high": 0.0622449811845871,
+      "total_variance": 77.80521904542071,
+      "noise_variance": 0.0,
+      "target": "general_time_loss_sec",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "freeTimeActivityRate",
+      "S1": -0.0787094223711276,
+      "S1_low": -0.2793049532780031,
+      "S1_high": 0.1259674082159023,
+      "ST": 0.0369050557506135,
+      "ST_low": 0.0293549863186535,
+      "ST_high": 0.0451173387502033,
+      "total_variance": 77.80521904542071,
+      "noise_variance": 0.0,
+      "target": "general_time_loss_sec",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "departureVariation",
+      "S1": 0.912595761413545,
+      "S1_low": -0.2485392042505065,
+      "S1_high": 2.128625813777772,
+      "ST": 0.9826819891813432,
+      "ST_low": 0.8694404762834823,
+      "ST_high": 1.0889322989827523,
+      "total_variance": 77.80521904542071,
+      "noise_variance": 0.0,
+      "target": "general_time_loss_sec",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "footDistanceLimit",
+      "S1": -0.0717967116927121,
+      "S1_low": -0.4262642780304966,
+      "S1_high": 0.2816282282766091,
+      "ST": 0.1005942517438501,
+      "ST_low": 0.0797648157058717,
+      "ST_high": 0.1261544260425416,
+      "total_variance": 77.80521904542071,
+      "noise_variance": 0.0,
+      "target": "general_time_loss_sec",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "busHeadway",
+      "S1": -0.1123518827163509,
+      "S1_low": -0.3405600694148614,
+      "S1_high": 0.1085162178061557,
+      "ST": 0.043087085057723,
+      "ST_low": 0.0343835705652684,
+      "ST_high": 0.053407985659296,
+      "total_variance": 77.80521904542071,
+      "noise_variance": 0.0,
+      "target": "general_time_loss_sec",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "uniformRandomTraffic",
+      "S1": -0.0834654823122788,
+      "S1_low": -0.3212276716564044,
+      "S1_high": 0.1433505960858339,
+      "ST": 0.0510908969141236,
+      "ST_low": 0.0401420539042349,
+      "ST_high": 0.0660878791131455,
+      "total_variance": 77.80521904542071,
+      "noise_variance": 0.0,
+      "target": "general_time_loss_sec",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "morningPeakProp",
+      "S1": -0.0894931912856284,
+      "S1_low": -0.3610783861395528,
+      "S1_high": 0.192418523576775,
+      "ST": 0.0693330786815717,
+      "ST_low": 0.0496658749930164,
+      "ST_high": 0.0939815415614939,
+      "total_variance": 77.80521904542071,
+      "noise_variance": 0.0,
+      "target": "general_time_loss_sec",
+      "estimator": "SUMO raw"
+    },
+    {
+      "parameter": "carRate",
+      "S1": 0.0687318454689377,
+      "S1_low": -0.1713035914349712,
+      "S1_high": 0.3196120973268256,
+      "ST": 0.0231088642129711,
+      "ST_low": 0.0146678624570152,
+      "ST_high": 0.0339921640226981,
+      "total_variance": 77.80521904542071,
+      "noise_variance": 2.2619852054772256,
+      "target": "general_time_loss_sec",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "carPreference",
+      "S1": -0.0007251288887607,
+      "S1_low": -0.2738278694918817,
+      "S1_high": 0.2793322006652128,
+      "ST": 0.0332164559491298,
+      "ST_low": 0.0223635149082243,
+      "ST_high": 0.0466590094976572,
+      "total_variance": 77.80521904542071,
+      "noise_variance": 2.2619852054772256,
+      "target": "general_time_loss_sec",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "unemploymentRate",
+      "S1": -0.0112743765574603,
+      "S1_low": -0.2549580462554703,
+      "S1_high": 0.2410169116349802,
+      "ST": 0.0204913547877634,
+      "ST_low": 0.0098297453994751,
+      "ST_high": 0.0318039502425447,
+      "total_variance": 77.80521904542071,
+      "noise_variance": 2.2619852054772256,
+      "target": "general_time_loss_sec",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "freeTimeActivityRate",
+      "S1": -0.0810662125148004,
+      "S1_low": -0.2875424795274501,
+      "S1_high": 0.1300678222770606,
+      "ST": 0.0080671783574149,
+      "ST_low": 0.0004559480702908,
+      "ST_high": 0.0151948486052541,
+      "total_variance": 77.80521904542071,
+      "noise_variance": 2.2619852054772256,
+      "target": "general_time_loss_sec",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "departureVariation",
+      "S1": 0.9399215456826212,
+      "S1_low": -0.2565425463642443,
+      "S1_high": 2.2008622033313134,
+      "ST": 0.982163437323435,
+      "ST_low": 0.8650883168424878,
+      "ST_high": 1.0916829252044211,
+      "total_variance": 77.80521904542071,
+      "noise_variance": 2.2619852054772256,
+      "target": "general_time_loss_sec",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "footDistanceLimit",
+      "S1": -0.0739465150754335,
+      "S1_low": -0.4385093823800177,
+      "S1_high": 0.2903598455745489,
+      "ST": 0.0736634150181277,
+      "ST_low": 0.0545878177457849,
+      "ST_high": 0.0964531396213739,
+      "total_variance": 77.80521904542071,
+      "noise_variance": 2.2619852054772256,
+      "target": "general_time_loss_sec",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "busHeadway",
+      "S1": -0.115716026446951,
+      "S1_low": -0.3520211113065485,
+      "S1_high": 0.1112115341137956,
+      "ST": 0.0144343156897135,
+      "ST_low": 0.006642941599003,
+      "ST_high": 0.0226449501939564,
+      "total_variance": 77.80521904542071,
+      "noise_variance": 2.2619852054772256,
+      "target": "general_time_loss_sec",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "uniformRandomTraffic",
+      "S1": -0.0859646827907546,
+      "S1_low": -0.3305160979690379,
+      "S1_high": 0.1480736059255947,
+      "ST": 0.0226777850652105,
+      "ST_low": 0.0124443484275844,
+      "ST_high": 0.0348467825501833,
+      "total_variance": 77.80521904542071,
+      "noise_variance": 2.2619852054772256,
+      "target": "general_time_loss_sec",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "morningPeakProp",
+      "S1": -0.0921728789874805,
+      "S1_low": -0.3704048515251933,
+      "S1_high": 0.1990918193947959,
+      "ST": 0.0414661910697759,
+      "ST_low": 0.0216807201085155,
+      "ST_high": 0.06588839432981,
+      "total_variance": 77.80521904542071,
+      "noise_variance": 2.2619852054772256,
+      "target": "general_time_loss_sec",
+      "estimator": "SUMO noise-corrected"
+    },
+    {
+      "parameter": "carRate",
+      "S1": 0.0170738239029698,
+      "S1_low": -0.106628077215206,
+      "S1_high": 0.1432000899555121,
+      "ST": 0.0135534378037456,
+      "ST_low": 0.0109255880041209,
+      "ST_high": 0.0170116859979637,
+      "total_variance": 82.28857601610717,
+      "noise_variance": 0.0,
+      "target": "mean_time_loss_sec",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "carPreference",
+      "S1": -0.003443441429882,
+      "S1_low": -0.0746120673737998,
+      "S1_high": 0.0601136994889525,
+      "ST": 0.003252725529704,
+      "ST_low": 0.0025130450475287,
+      "ST_high": 0.0042253689783681,
+      "total_variance": 82.28857601610717,
+      "noise_variance": 0.0,
+      "target": "mean_time_loss_sec",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "unemploymentRate",
+      "S1": -0.0028122033837913,
+      "S1_low": -0.0450010059177412,
+      "S1_high": 0.0451917596370287,
+      "ST": 0.0014495520579521,
+      "ST_low": 0.0011378947293844,
+      "ST_high": 0.0018915092764949,
+      "total_variance": 82.28857601610717,
+      "noise_variance": 0.0,
+      "target": "mean_time_loss_sec",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "freeTimeActivityRate",
+      "S1": -0.0024950005625839,
+      "S1_low": -0.0422743419358477,
+      "S1_high": 0.0352052676251185,
+      "ST": 0.0012001182420231,
+      "ST_low": 0.0009574397496811,
+      "ST_high": 0.0014830124844302,
+      "total_variance": 82.28857601610717,
+      "noise_variance": 0.0,
+      "target": "mean_time_loss_sec",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "departureVariation",
+      "S1": 0.7355332976787582,
+      "S1_low": -0.319535956243738,
+      "S1_high": 1.8764078260860035,
+      "ST": 0.769063810711891,
+      "ST_low": 0.6857596175611265,
+      "ST_high": 0.8609705800259767,
+      "total_variance": 82.28857601610717,
+      "noise_variance": 0.0,
+      "target": "mean_time_loss_sec",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "footDistanceLimit",
+      "S1": -0.015426768589574,
+      "S1_low": -0.2356418597407025,
+      "S1_high": 0.1913266344758787,
+      "ST": 0.0402857592974276,
+      "ST_low": 0.0319887155641596,
+      "ST_high": 0.0499535744979502,
+      "total_variance": 82.28857601610717,
+      "noise_variance": 0.0,
+      "target": "mean_time_loss_sec",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "busHeadway",
+      "S1": 0.1665314239490023,
+      "S1_low": -0.3453989946476912,
+      "S1_high": 0.6809621611233785,
+      "ST": 0.1974415620210813,
+      "ST_low": 0.1578908110853631,
+      "ST_high": 0.2449613787637999,
+      "total_variance": 82.28857601610717,
+      "noise_variance": 0.0,
+      "target": "mean_time_loss_sec",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "uniformRandomTraffic",
+      "S1": 0.020478666887544,
+      "S1_low": -0.0963208040107138,
+      "S1_high": 0.1493065900904841,
+      "ST": 0.0125346499941121,
+      "ST_low": 0.0101934128807981,
+      "ST_high": 0.0152186824634887,
+      "total_variance": 82.28857601610717,
+      "noise_variance": 0.0,
+      "target": "mean_time_loss_sec",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "morningPeakProp",
+      "S1": 0.0152307084657632,
+      "S1_low": -0.0655117940411929,
+      "S1_high": 0.1013525259532908,
+      "ST": 0.0060249908425922,
+      "ST_low": 0.0041680738672929,
+      "ST_high": 0.0081210122158095,
+      "total_variance": 82.28857601610717,
+      "noise_variance": 0.0,
+      "target": "mean_time_loss_sec",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "carRate",
+      "S1": 0.0828372666514229,
+      "S1_low": -0.0376886275361488,
+      "S1_high": 0.2065200101557291,
+      "ST": 0.1068222179218735,
+      "ST_low": 0.0916099276849399,
+      "ST_high": 0.1245199726544865,
+      "total_variance": 420951.544232246,
+      "noise_variance": 0.0,
+      "target": "total_vkt_km",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "carPreference",
+      "S1": 0.0133885556236848,
+      "S1_low": -0.0371053305885406,
+      "S1_high": 0.0577836821001561,
+      "ST": 0.0198431665631314,
+      "ST_low": 0.0167256382805304,
+      "ST_high": 0.0232053685753375,
+      "total_variance": 420951.544232246,
+      "noise_variance": 0.0,
+      "target": "total_vkt_km",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "unemploymentRate",
+      "S1": 0.0103515645898788,
+      "S1_low": -0.0254689540418909,
+      "S1_high": 0.0481396133567413,
+      "ST": 0.0103793939344282,
+      "ST_low": 0.0086226070458986,
+      "ST_high": 0.0121595160055742,
+      "total_variance": 420951.544232246,
+      "noise_variance": 0.0,
+      "target": "total_vkt_km",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "freeTimeActivityRate",
+      "S1": 0.0010637385296901,
+      "S1_low": -0.0092924688978834,
+      "S1_high": 0.0118249166889936,
+      "ST": 0.0008363019227901,
+      "ST_low": 0.0007098908600628,
+      "ST_high": 0.0009659483636642,
+      "total_variance": 420951.544232246,
+      "noise_variance": 0.0,
+      "target": "total_vkt_km",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "departureVariation",
+      "S1": -8.880681643348386e-05,
+      "S1_low": -0.0037162141953896,
+      "S1_high": 0.0038324881669997,
+      "ST": 9.89722998944334e-05,
+      "ST_low": 8.074919157852775e-05,
+      "ST_high": 0.0001187877206857,
+      "total_variance": 420951.544232246,
+      "noise_variance": 0.0,
+      "target": "total_vkt_km",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "footDistanceLimit",
+      "S1": 0.8274271644744502,
+      "S1_low": 0.5058806946992618,
+      "S1_high": 1.1698751504631697,
+      "ST": 0.8567354213811376,
+      "ST_low": 0.7654601416680836,
+      "ST_high": 0.9505277720609906,
+      "total_variance": 420951.544232246,
+      "noise_variance": 0.0,
+      "target": "total_vkt_km",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "busHeadway",
+      "S1": 0.0032194114440368,
+      "S1_low": -0.0422292389344807,
+      "S1_high": 0.0458528573330738,
+      "ST": 0.0143539261767154,
+      "ST_low": 0.012022958638248,
+      "ST_high": 0.0167779964583584,
+      "total_variance": 420951.544232246,
+      "noise_variance": 0.0,
+      "target": "total_vkt_km",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "uniformRandomTraffic",
+      "S1": 0.0115240650918475,
+      "S1_low": -0.0320758655252176,
+      "S1_high": 0.0563363500280487,
+      "ST": 0.0132593616079225,
+      "ST_low": 0.0114508197541951,
+      "ST_high": 0.0151740863786042,
+      "total_variance": 420951.544232246,
+      "noise_variance": 0.0,
+      "target": "total_vkt_km",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "morningPeakProp",
+      "S1": 0.0013413151563693,
+      "S1_low": -0.0144778243698004,
+      "S1_high": 0.0164752844571358,
+      "ST": 0.0015538443907892,
+      "ST_low": 0.0011830557060572,
+      "ST_high": 0.0019963412624851,
+      "total_variance": 420951.544232246,
+      "noise_variance": 0.0,
+      "target": "total_vkt_km",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "carRate",
+      "S1": 0.0194230454723782,
+      "S1_low": -0.0825398030077228,
+      "S1_high": 0.1188830156767275,
+      "ST": 0.0085613148587763,
+      "ST_low": 0.0069159837132144,
+      "ST_high": 0.0106749341042478,
+      "total_variance": 70.95035353673083,
+      "noise_variance": 0.0,
+      "target": "general_time_loss_sec",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "carPreference",
+      "S1": 0.0024750333980533,
+      "S1_low": -0.132694868727062,
+      "S1_high": 0.1183923096247168,
+      "ST": 0.0121005998965014,
+      "ST_low": 0.0090202269330158,
+      "ST_high": 0.0161246254052506,
+      "total_variance": 70.95035353673083,
+      "noise_variance": 0.0,
+      "target": "general_time_loss_sec",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "unemploymentRate",
+      "S1": 0.0045210091186509,
+      "S1_low": -0.0514320266531128,
+      "S1_high": 0.0658751049762862,
+      "ST": 0.0027617836645951,
+      "ST_low": 0.002165061771114,
+      "ST_high": 0.0035125235244402,
+      "total_variance": 70.95035353673083,
+      "noise_variance": 0.0,
+      "target": "general_time_loss_sec",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "freeTimeActivityRate",
+      "S1": -0.0007187536700179,
+      "S1_low": -0.0274548927719875,
+      "S1_high": 0.0225288833451692,
+      "ST": 0.0004441267057089,
+      "ST_low": 0.0003553659369354,
+      "ST_high": 0.0005574238534046,
+      "total_variance": 70.95035353673083,
+      "noise_variance": 0.0,
+      "target": "general_time_loss_sec",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "departureVariation",
+      "S1": 0.926205675962262,
+      "S1_low": -0.2455334116753657,
+      "S1_high": 2.2073130249197006,
+      "ST": 0.9446468524565548,
+      "ST_low": 0.8579064868173991,
+      "ST_high": 1.026469147147725,
+      "total_variance": 70.95035353673083,
+      "noise_variance": 0.0,
+      "target": "general_time_loss_sec",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "footDistanceLimit",
+      "S1": 0.0289445621663495,
+      "S1_low": -0.1954554882029828,
+      "S1_high": 0.2675047063232763,
+      "ST": 0.0428744287711687,
+      "ST_low": 0.0335813111496006,
+      "ST_high": 0.0545317743564194,
+      "total_variance": 70.95035353673083,
+      "noise_variance": 0.0,
+      "target": "general_time_loss_sec",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "busHeadway",
+      "S1": 0.0003671908224314,
+      "S1_low": -0.0380573965132609,
+      "S1_high": 0.0394997742636118,
+      "ST": 0.0012545186613941,
+      "ST_low": 0.0009132094985869,
+      "ST_high": 0.0017341827830844,
+      "total_variance": 70.95035353673083,
+      "noise_variance": 0.0,
+      "target": "general_time_loss_sec",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "uniformRandomTraffic",
+      "S1": 0.000315659965968,
+      "S1_low": -0.083475105109601,
+      "S1_high": 0.0880448515155046,
+      "ST": 0.0058953821207536,
+      "ST_low": 0.0046565626609526,
+      "ST_high": 0.0074436243330651,
+      "total_variance": 70.95035353673083,
+      "noise_variance": 0.0,
+      "target": "general_time_loss_sec",
+      "estimator": "Surrogate, same design"
+    },
+    {
+      "parameter": "morningPeakProp",
+      "S1": 0.0098355480657825,
+      "S1_low": -0.0770584531157939,
+      "S1_high": 0.1073112928546679,
+      "ST": 0.0072968972180867,
+      "ST_low": 0.0051990304881161,
+      "ST_high": 0.009766504363931,
+      "total_variance": 70.95035353673083,
+      "noise_variance": 0.0,
+      "target": "general_time_loss_sec",
+      "estimator": "Surrogate, same design"
+    }
+  ],
+  "sobol_surrogate": [
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "busHeadway",
+      "ST_mean": 0.0012770788470276,
+      "ST_q025": 0.0006626743146993,
+      "ST_q975": 0.0022719549185202,
+      "S1_mean": 0.000792647460727,
+      "S1_q025": -0.0075560638217089,
+      "S1_q975": 0.0106440971039397,
+      "S1_frozen": -0.0012353429849925,
+      "ST_frozen": 0.0011864588377273
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "carPreference",
+      "ST_mean": 0.0107743378737326,
+      "ST_q025": 0.0078691729769945,
+      "ST_q975": 0.0147442280563918,
+      "S1_mean": 0.0072932344191774,
+      "S1_q025": -0.0100194034834731,
+      "S1_q975": 0.0285541967247203,
+      "S1_frozen": 0.0125581131852032,
+      "ST_frozen": 0.0119867642966528
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "carRate",
+      "ST_mean": 0.0074553167061997,
+      "ST_q025": 0.0054347401650609,
+      "ST_q975": 0.0093099412152961,
+      "S1_mean": 0.0023023868181742,
+      "S1_q025": -0.0087801490225576,
+      "S1_q975": 0.0097485423942958,
+      "S1_frozen": 0.0030422565849258,
+      "ST_frozen": 0.0090348526882365
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "departureVariation",
+      "ST_mean": 0.9459276950929898,
+      "ST_q025": 0.9298825912892792,
+      "ST_q975": 0.9635602882259632,
+      "S1_mean": 0.937289129297489,
+      "S1_q025": 0.912280680370478,
+      "S1_q975": 0.964139437721412,
+      "S1_frozen": 0.9246616398606629,
+      "ST_frozen": 0.931774500182453
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "footDistanceLimit",
+      "ST_mean": 0.0426525145197598,
+      "ST_q025": 0.0333372202238782,
+      "ST_q975": 0.0534698058911577,
+      "S1_mean": 0.0307027203194454,
+      "S1_q025": 0.0088102628836119,
+      "S1_q975": 0.0571048334272226,
+      "S1_frozen": 0.0293040152154136,
+      "ST_frozen": 0.0434813349027169
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "freeTimeActivityRate",
+      "ST_mean": 0.0008398172702421,
+      "ST_q025": 0.0004049811455048,
+      "ST_q975": 0.0013903923050462,
+      "S1_mean": 0.0003862928358604,
+      "S1_q025": -0.008036907324173,
+      "S1_q975": 0.0097676457351915,
+      "S1_frozen": -0.0022955401747353,
+      "ST_frozen": 0.0005136885826663
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "morningPeakProp",
+      "ST_mean": 0.0050765890187082,
+      "ST_q025": 0.0024688616034438,
+      "ST_q975": 0.0085744865000501,
+      "S1_mean": 0.0004155808612901,
+      "S1_q025": -0.0162102412390995,
+      "S1_q975": 0.0149533418742705,
+      "S1_frozen": 0.0013624339635832,
+      "ST_frozen": 0.007631932551232
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "unemploymentRate",
+      "ST_mean": 0.0026872854850958,
+      "ST_q025": 0.0015474815933526,
+      "ST_q975": 0.0043526720296938,
+      "S1_mean": 0.0019326946444993,
+      "S1_q025": -0.0042875777236161,
+      "S1_q975": 0.0112153502354496,
+      "S1_frozen": 0.0023956409900426,
+      "ST_frozen": 0.0027056827778821
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "uniformRandomTraffic",
+      "ST_mean": 0.0051598636931737,
+      "ST_q025": 0.0027622636459525,
+      "ST_q975": 0.0084349750706581,
+      "S1_mean": 0.0041874481016738,
+      "S1_q025": -0.0056543431034722,
+      "S1_q975": 0.0135059906844179,
+      "S1_frozen": 0.0040934510501929,
+      "ST_frozen": 0.0060902920020276
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "busHeadway",
+      "ST_mean": 0.1992268045700881,
+      "ST_q025": 0.1793005643136772,
+      "ST_q975": 0.2150225188381254,
+      "S1_mean": 0.1835907151217525,
+      "S1_q025": 0.1390478011733343,
+      "S1_q975": 0.2218107898595147,
+      "S1_frozen": 0.1612893881577378,
+      "ST_frozen": 0.1959600896921441
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "carPreference",
+      "ST_mean": 0.0025535021939814,
+      "ST_q025": 0.0013061671580677,
+      "ST_q975": 0.0039524651363204,
+      "S1_mean": 0.0012286772143664,
+      "S1_q025": -0.0064503981570516,
+      "S1_q975": 0.0082690723112676,
+      "S1_frozen": 0.0052632320917986,
+      "ST_frozen": 0.0034083370241213
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "carRate",
+      "ST_mean": 0.0116999974945741,
+      "ST_q025": 0.0091947592714167,
+      "ST_q975": 0.014249142570319,
+      "S1_mean": 0.0049749232072176,
+      "S1_q025": -0.0046186327265646,
+      "S1_q975": 0.0144040973406452,
+      "S1_frozen": 0.0014866636620105,
+      "ST_frozen": 0.0139085864632445
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "departureVariation",
+      "ST_mean": 0.7699802629911467,
+      "ST_q025": 0.7540380629459581,
+      "ST_q975": 0.788624026573332,
+      "S1_mean": 0.7499033757435654,
+      "S1_q025": 0.7217995443228474,
+      "S1_q975": 0.7783862636338411,
+      "S1_frozen": 0.732467793416499,
+      "ST_frozen": 0.750738946464211
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "footDistanceLimit",
+      "ST_mean": 0.0364564058763705,
+      "ST_q025": 0.0302153007416152,
+      "ST_q975": 0.0422207396844836,
+      "S1_mean": 0.014863169756537,
+      "S1_q025": -0.0097258212077661,
+      "S1_q975": 0.0323413794524498,
+      "S1_frozen": 0.0157422944870178,
+      "ST_frozen": 0.0408569163322532
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "freeTimeActivityRate",
+      "ST_mean": 0.0015091804804841,
+      "ST_q025": 0.0008277959334731,
+      "ST_q975": 0.0026962041300281,
+      "S1_mean": -0.0008410922475022,
+      "S1_q025": -0.0103263259465114,
+      "S1_q975": 0.0076089512470714,
+      "S1_frozen": 0.0002182536377502,
+      "ST_frozen": 0.0012939992956093
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "morningPeakProp",
+      "ST_mean": 0.0040352800860454,
+      "ST_q025": 0.0020345188424484,
+      "ST_q975": 0.006330986755591,
+      "S1_mean": 0.001038465649459,
+      "S1_q025": -0.0181059709674308,
+      "S1_q975": 0.0202497017845371,
+      "S1_frozen": 0.0033205237730101,
+      "ST_frozen": 0.0069628184888853
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "unemploymentRate",
+      "ST_mean": 0.0014311018794521,
+      "ST_q025": 0.0006100852326302,
+      "ST_q975": 0.0026458028550597,
+      "S1_mean": 0.0004052401924141,
+      "S1_q025": -0.0084887242515366,
+      "S1_q975": 0.0108934670935285,
+      "S1_frozen": 0.0021045593916331,
+      "ST_frozen": 0.0014485177491797
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "uniformRandomTraffic",
+      "ST_mean": 0.0113247445592901,
+      "ST_q025": 0.0070312063182988,
+      "ST_q975": 0.0157663852231998,
+      "S1_mean": 0.0094491574807256,
+      "S1_q025": -0.0023502053099493,
+      "S1_q975": 0.0237486779370953,
+      "S1_frozen": 0.013065182191625,
+      "ST_frozen": 0.0127676355200648
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "busHeadway",
+      "ST_mean": 0.0133451799757184,
+      "ST_q025": 0.0111243934605966,
+      "ST_q975": 0.0159183785721177,
+      "S1_mean": 0.0128669354834859,
+      "S1_q025": 0.0093802026531822,
+      "S1_q975": 0.0171032283636446,
+      "S1_frozen": 0.0132120915102909,
+      "ST_frozen": 0.0142409272725742
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "carPreference",
+      "ST_mean": 0.0174436513386647,
+      "ST_q025": 0.0153152226712603,
+      "ST_q975": 0.0200023584595518,
+      "S1_mean": 0.0139039791621456,
+      "S1_q025": 0.0052090856759487,
+      "S1_q975": 0.0240486676442933,
+      "S1_frozen": 0.0186250686261545,
+      "ST_frozen": 0.0202003692263977
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "carRate",
+      "ST_mean": 0.1017447158362422,
+      "ST_q025": 0.0939237572064223,
+      "ST_q975": 0.1098063920327383,
+      "S1_mean": 0.0828382754275638,
+      "S1_q025": 0.0754621619342794,
+      "S1_q975": 0.0911714112330819,
+      "S1_frozen": 0.0926225209049426,
+      "ST_frozen": 0.107223922735538
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "departureVariation",
+      "ST_mean": 0.0001659748160098,
+      "ST_q025": 8.093634244945907e-05,
+      "ST_q975": 0.0002628980357741,
+      "S1_mean": 0.0001372092421279,
+      "S1_q025": -0.0014995196024898,
+      "S1_q975": 0.0014186668958653,
+      "S1_frozen": 0.000173753844116,
+      "ST_frozen": 0.0001070956910166
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "footDistanceLimit",
+      "ST_mean": 0.8697114587816792,
+      "ST_q025": 0.8604432020510916,
+      "ST_q975": 0.8788378490291158,
+      "S1_mean": 0.8479970792280505,
+      "S1_q025": 0.8389815468750523,
+      "S1_q975": 0.8612124883269805,
+      "S1_frozen": 0.8354078693940332,
+      "ST_frozen": 0.8588826822960562
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "freeTimeActivityRate",
+      "ST_mean": 0.0009166325909734,
+      "ST_q025": 0.0004518269698829,
+      "ST_q975": 0.001399201241859,
+      "S1_mean": 0.0005324354646631,
+      "S1_q025": -0.0016458462629691,
+      "S1_q975": 0.0030984531038556,
+      "S1_frozen": -0.0009527010493135,
+      "ST_frozen": 0.0008024484223443
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "morningPeakProp",
+      "ST_mean": 0.0013250193622421,
+      "ST_q025": 0.0007245233403196,
+      "ST_q975": 0.0022855262983792,
+      "S1_mean": 0.0007563099455715,
+      "S1_q025": -0.0016950404691209,
+      "S1_q975": 0.0027235014714921,
+      "S1_frozen": 0.0014724431854658,
+      "ST_frozen": 0.0014517757127842
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "unemploymentRate",
+      "ST_mean": 0.0084223863120605,
+      "ST_q025": 0.0059615013963092,
+      "ST_q975": 0.0103810351831259,
+      "S1_mean": 0.006277463345631,
+      "S1_q025": 0.0030527027632712,
+      "S1_q975": 0.0105511647733275,
+      "S1_frozen": 0.0075769585341804,
+      "ST_frozen": 0.010304659530622
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "uniformRandomTraffic",
+      "ST_mean": 0.0124607035669511,
+      "ST_q025": 0.0093040310801433,
+      "ST_q975": 0.0153362090461801,
+      "S1_mean": 0.0107239720719446,
+      "S1_q025": 0.0034066994938117,
+      "S1_q975": 0.0174369440272495,
+      "S1_frozen": 0.0088141119189982,
+      "ST_frozen": 0.0134302790955403
+    }
+  ],
+  "rank_stability": [
+    {
+      "target": "general_time_loss_sec",
+      "tau": 0.9444444444444444,
+      "top2": 1.0
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "tau": 0.9444444444444444,
+      "top2": 1.0
+    },
+    {
+      "target": "total_vkt_km",
+      "tau": 0.9444444444444444,
+      "top2": 1.0
+    }
+  ],
+  "shap_shares": [
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "carRate",
+      "mean_abs_SHAP_share": 0.035868925312081
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "carRate",
+      "mean_abs_SHAP_share": 0.0485043518231859
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "carRate",
+      "mean_abs_SHAP_share": 0.1803857862898533
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "carPreference",
+      "mean_abs_SHAP_share": 0.0587157073762975
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "carPreference",
+      "mean_abs_SHAP_share": 0.0208197800835588
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "carPreference",
+      "mean_abs_SHAP_share": 0.0703508800343357
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "unemploymentRate",
+      "mean_abs_SHAP_share": 0.0371168045446296
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "unemploymentRate",
+      "mean_abs_SHAP_share": 0.0176032620141799
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "unemploymentRate",
+      "mean_abs_SHAP_share": 0.0543271861237044
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "freeTimeActivityRate",
+      "mean_abs_SHAP_share": 0.0123822203146988
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "freeTimeActivityRate",
+      "mean_abs_SHAP_share": 0.0172339247048376
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "freeTimeActivityRate",
+      "mean_abs_SHAP_share": 0.0141747180934487
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "departureVariation",
+      "mean_abs_SHAP_share": 0.6378212198565425
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "departureVariation",
+      "mean_abs_SHAP_share": 0.4785978653557345
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "departureVariation",
+      "mean_abs_SHAP_share": 0.0034752284722356
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "footDistanceLimit",
+      "mean_abs_SHAP_share": 0.1183258089198866
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "footDistanceLimit",
+      "mean_abs_SHAP_share": 0.0946212265335232
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "footDistanceLimit",
+      "mean_abs_SHAP_share": 0.5372813777939035
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "busHeadway",
+      "mean_abs_SHAP_share": 0.0169465130807723
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "busHeadway",
+      "mean_abs_SHAP_share": 0.2338801775755595
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "busHeadway",
+      "mean_abs_SHAP_share": 0.0595632847212251
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "uniformRandomTraffic",
+      "mean_abs_SHAP_share": 0.0522169633588899
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "uniformRandomTraffic",
+      "mean_abs_SHAP_share": 0.063901215541505
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "uniformRandomTraffic",
+      "mean_abs_SHAP_share": 0.0644238466670343
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "morningPeakProp",
+      "mean_abs_SHAP_share": 0.0306058372362015
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "morningPeakProp",
+      "mean_abs_SHAP_share": 0.0248381963679154
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "morningPeakProp",
+      "mean_abs_SHAP_share": 0.0160176918042591
+    }
+  ],
+  "dml": [
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "carRate",
+      "estimate_per_SD": -0.8303239462158453,
+      "SE": 0.1256677392944166,
+      "CI_low": -1.0766327152329018,
+      "CI_high": -0.5840151771987886,
+      "input_SD": 0.2022702202726155
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "carPreference",
+      "estimate_per_SD": 0.3807657913529806,
+      "SE": 0.1073089360055962,
+      "CI_low": 0.1704402767820119,
+      "CI_high": 0.5910913059239492,
+      "input_SD": 0.2456138389024617
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "unemploymentRate",
+      "estimate_per_SD": -0.3895051793797904,
+      "SE": 0.1067138641548751,
+      "CI_low": -0.5986643531233458,
+      "CI_high": -0.1803460056362351,
+      "input_SD": 0.0664602152324308
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "freeTimeActivityRate",
+      "estimate_per_SD": -0.3834951646379292,
+      "SE": 0.1005061563514646,
+      "CI_low": -0.5804872310867999,
+      "CI_high": -0.1865030981890585,
+      "input_SD": 0.1300308558895358
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "departureVariation",
+      "estimate_per_SD": -6.290307582804123,
+      "SE": 0.4333089737794998,
+      "CI_low": -7.139593171411942,
+      "CI_high": -5.441021994196303,
+      "input_SD": 502.7859761063016
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "footDistanceLimit",
+      "estimate_per_SD": 1.2281432784138198,
+      "SE": 0.1554253556354553,
+      "CI_low": 0.9235095813683274,
+      "CI_high": 1.532776975459312,
+      "input_SD": 303.40533040892336
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "busHeadway",
+      "estimate_per_SD": -3.2747289031615043,
+      "SE": 0.2197352287415165,
+      "CI_low": -3.7054099514948766,
+      "CI_high": -2.844047854828132,
+      "input_SD": 606.8106607648651
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "uniformRandomTraffic",
+      "estimate_per_SD": -1.069265218958982,
+      "SE": 0.1119642077865098,
+      "CI_low": -1.288715066220541,
+      "CI_high": -0.8498153716974227,
+      "input_SD": 0.0982449733854015
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "parameter": "morningPeakProp",
+      "estimate_per_SD": 0.3115270017983665,
+      "SE": 0.1205959405350936,
+      "CI_low": 0.0751589583495831,
+      "CI_high": 0.54789504524715,
+      "input_SD": 0.1589265448061774
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "carRate",
+      "estimate_per_SD": 203.95943333213705,
+      "SE": 6.957968214018183,
+      "CI_low": 190.32181563266136,
+      "CI_high": 217.59705103161264,
+      "input_SD": 0.2022702202726155
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "carPreference",
+      "estimate_per_SD": 105.67283240475156,
+      "SE": 5.129482216526573,
+      "CI_low": 95.61904726035948,
+      "CI_high": 115.72661754914364,
+      "input_SD": 0.2456138389024617
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "unemploymentRate",
+      "estimate_per_SD": -74.40451749113308,
+      "SE": 4.600051706164426,
+      "CI_low": -83.42061883521535,
+      "CI_high": -65.3884161470508,
+      "input_SD": 0.0664602152324308
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "freeTimeActivityRate",
+      "estimate_per_SD": 27.263117265381492,
+      "SE": 3.417613285589727,
+      "CI_low": 20.564595225625627,
+      "CI_high": 33.96163930513735,
+      "input_SD": 0.1300308558895358
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "departureVariation",
+      "estimate_per_SD": -0.1408719890552969,
+      "SE": 3.38935056831672,
+      "CI_low": -6.783999102956068,
+      "CI_high": 6.502255124845474,
+      "input_SD": 502.7859761063016
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "footDistanceLimit",
+      "estimate_per_SD": -519.585316562715,
+      "SE": 12.433744387715764,
+      "CI_low": -543.9554555626379,
+      "CI_high": -495.21517756279206,
+      "input_SD": 303.40533040892336
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "busHeadway",
+      "estimate_per_SD": -81.8581659942159,
+      "SE": 4.386146701669972,
+      "CI_low": -90.45501352948904,
+      "CI_high": -73.26131845894275,
+      "input_SD": 606.8106607648651
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "uniformRandomTraffic",
+      "estimate_per_SD": 79.0371358160155,
+      "SE": 3.97347368420441,
+      "CI_low": 71.24912739497486,
+      "CI_high": 86.82514423705615,
+      "input_SD": 0.0982449733854015
+    },
+    {
+      "target": "total_vkt_km",
+      "parameter": "morningPeakProp",
+      "estimate_per_SD": -21.64116677704419,
+      "SE": 3.769699105097626,
+      "CI_low": -29.029777023035543,
+      "CI_high": -14.252556531052848,
+      "input_SD": 0.1589265448061774
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "carRate",
+      "estimate_per_SD": 0.0402632798332424,
+      "SE": 0.1203192641910152,
+      "CI_low": -0.1955624779811474,
+      "CI_high": 0.2760890376476324,
+      "input_SD": 0.2022702202726155
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "carPreference",
+      "estimate_per_SD": 0.907806260653272,
+      "SE": 0.1202935814335766,
+      "CI_low": 0.6720308410434616,
+      "CI_high": 1.143581680263082,
+      "input_SD": 0.2456138389024617
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "unemploymentRate",
+      "estimate_per_SD": -0.6290523661133975,
+      "SE": 0.1023475623106913,
+      "CI_low": -0.8296535882423527,
+      "CI_high": -0.4284511439844424,
+      "input_SD": 0.0664602152324308
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "freeTimeActivityRate",
+      "estimate_per_SD": -0.167321826283356,
+      "SE": 0.1075947882247982,
+      "CI_low": -0.3782076112039607,
+      "CI_high": 0.0435639586372485,
+      "input_SD": 0.1300308558895358
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "departureVariation",
+      "estimate_per_SD": -6.4121118161866315,
+      "SE": 0.4527684115582479,
+      "CI_low": -7.299537902840798,
+      "CI_high": -5.524685729532465,
+      "input_SD": 502.7859761063016
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "footDistanceLimit",
+      "estimate_per_SD": -1.300696481538416,
+      "SE": 0.1560829520429698,
+      "CI_low": -1.6066190675426368,
+      "CI_high": -0.9947738955341948,
+      "input_SD": 303.40533040892336
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "busHeadway",
+      "estimate_per_SD": 0.1975720638487818,
+      "SE": 0.1244375247212886,
+      "CI_low": -0.0463254846049438,
+      "CI_high": 0.4414696123025075,
+      "input_SD": 606.8106607648651
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "uniformRandomTraffic",
+      "estimate_per_SD": -0.7058305271313932,
+      "SE": 0.1126236771163377,
+      "CI_low": -0.9265729342794152,
+      "CI_high": -0.4850881199833711,
+      "input_SD": 0.0982449733854015
+    },
+    {
+      "target": "general_time_loss_sec",
+      "parameter": "morningPeakProp",
+      "estimate_per_SD": 0.3012091580197762,
+      "SE": 0.1381003040911927,
+      "CI_low": 0.0305325620010384,
+      "CI_high": 0.571885754038514,
+      "input_SD": 0.1589265448061774
+    }
+  ],
+  "inverse_recovery": [
+    {
+      "objective": "Aggregate (2 outputs)",
+      "parameter": "busHeadway",
+      "abs_error": 0.28234745538985817
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "parameter": "carPreference",
+      "abs_error": 0.34965465450592537
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "parameter": "carRate",
+      "abs_error": 0.2396455072180247
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "parameter": "departureVariation",
+      "abs_error": 0.250660607584934
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "parameter": "footDistanceLimit",
+      "abs_error": 0.1020001966066692
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "parameter": "freeTimeActivityRate",
+      "abs_error": 0.4001120873051912
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "parameter": "morningPeakProp",
+      "abs_error": 0.2805928420605517
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "parameter": "unemploymentRate",
+      "abs_error": 0.2429918188425808
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "parameter": "uniformRandomTraffic",
+      "abs_error": 0.30523684554861547
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "parameter": "busHeadway",
+      "abs_error": 0.16322750737145544
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "parameter": "carPreference",
+      "abs_error": 0.31403881318848487
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "parameter": "carRate",
+      "abs_error": 0.1562127715264906
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "parameter": "departureVariation",
+      "abs_error": 0.2789487134863712
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "parameter": "footDistanceLimit",
+      "abs_error": 0.05980925958566635
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "parameter": "freeTimeActivityRate",
+      "abs_error": 0.29645418437448706
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "parameter": "morningPeakProp",
+      "abs_error": 0.03245643400128685
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "parameter": "unemploymentRate",
+      "abs_error": 0.12755962592743214
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "parameter": "uniformRandomTraffic",
+      "abs_error": 0.12316786750494699
+    }
+  ],
+  "inverse_validation": [
+    {
+      "objective": "Aggregate (2 outputs)",
+      "metric": "arrivals_hour_10",
+      "in_objective": false,
+      "relative_error_pct": 43.525785019003486
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "metric": "arrivals_hour_6",
+      "in_objective": false,
+      "relative_error_pct": 43.513992819758656
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "metric": "arrivals_hour_7",
+      "in_objective": false,
+      "relative_error_pct": 27.96823117652338
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "metric": "arrivals_hour_8",
+      "in_objective": false,
+      "relative_error_pct": 4.4127206155418115
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "metric": "arrivals_hour_9",
+      "in_objective": false,
+      "relative_error_pct": 21.340491372843207
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "metric": "general_time_loss_sec",
+      "in_objective": false,
+      "relative_error_pct": 2.122237553057049
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "metric": "mean_time_loss_sec",
+      "in_objective": true,
+      "relative_error_pct": 1.2540280266934092
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "metric": "mean_waiting_sec",
+      "in_objective": false,
+      "relative_error_pct": 1.6859934485545058
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "metric": "p90_time_loss_sec",
+      "in_objective": false,
+      "relative_error_pct": 4.1435490509897175
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "metric": "total_completed_trips",
+      "in_objective": false,
+      "relative_error_pct": 4.055626888943532
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "metric": "total_vkt_km",
+      "in_objective": true,
+      "relative_error_pct": 1.411249772248122
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "metric": "type_default_completed",
+      "in_objective": false,
+      "relative_error_pct": 7.419409990140858
+    },
+    {
+      "objective": "Aggregate (2 outputs)",
+      "metric": "unfinished_trips",
+      "in_objective": false,
+      "relative_error_pct": 54.32624113475177
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "metric": "arrivals_hour_10",
+      "in_objective": true,
+      "relative_error_pct": 11.14429049211658
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "metric": "arrivals_hour_6",
+      "in_objective": true,
+      "relative_error_pct": 11.743906171164838
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "metric": "arrivals_hour_7",
+      "in_objective": true,
+      "relative_error_pct": 3.1118365999976443
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "metric": "arrivals_hour_8",
+      "in_objective": true,
+      "relative_error_pct": 4.148662275805071
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "metric": "arrivals_hour_9",
+      "in_objective": true,
+      "relative_error_pct": 5.676903003748302
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "metric": "general_time_loss_sec",
+      "in_objective": false,
+      "relative_error_pct": 3.4756212421565604
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "metric": "mean_time_loss_sec",
+      "in_objective": true,
+      "relative_error_pct": 2.1538331656033454
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "metric": "mean_waiting_sec",
+      "in_objective": false,
+      "relative_error_pct": 1.8078814512347277
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "metric": "p90_time_loss_sec",
+      "in_objective": false,
+      "relative_error_pct": 2.882890225069538
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "metric": "total_completed_trips",
+      "in_objective": true,
+      "relative_error_pct": 3.6983767353028734
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "metric": "total_vkt_km",
+      "in_objective": true,
+      "relative_error_pct": 1.111124344114116
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "metric": "type_default_completed",
+      "in_objective": false,
+      "relative_error_pct": 4.068324389872483
+    },
+    {
+      "objective": "Extended (8 outputs)",
+      "metric": "unfinished_trips",
+      "in_objective": false,
+      "relative_error_pct": 21.68427230046948
+    }
+  ],
+  "equifinality": [
+    {
+      "setting_id": "target_0000",
+      "objective": "aggregate",
+      "n_scanned": 100000,
+      "n_near_optimal": 7654,
+      "fraction_near_optimal": 0.07654,
+      "min_loss": 0.0003466897760325
+    },
+    {
+      "setting_id": "target_0000",
+      "objective": "extended",
+      "n_scanned": 100000,
+      "n_near_optimal": 46,
+      "fraction_near_optimal": 0.00046,
+      "min_loss": 0.0319641418400118
+    },
+    {
+      "setting_id": "target_0001",
+      "objective": "aggregate",
+      "n_scanned": 100000,
+      "n_near_optimal": 1426,
+      "fraction_near_optimal": 0.01426,
+      "min_loss": 0.001809694341073
+    },
+    {
+      "setting_id": "target_0001",
+      "objective": "extended",
+      "n_scanned": 100000,
+      "n_near_optimal": 1,
+      "fraction_near_optimal": 1e-05,
+      "min_loss": 0.0428491683242112
+    },
+    {
+      "setting_id": "target_0002",
+      "objective": "aggregate",
+      "n_scanned": 100000,
+      "n_near_optimal": 440,
+      "fraction_near_optimal": 0.0044,
+      "min_loss": 0.00250102078351
+    },
+    {
+      "setting_id": "target_0002",
+      "objective": "extended",
+      "n_scanned": 100000,
+      "n_near_optimal": 23,
+      "fraction_near_optimal": 0.00023,
+      "min_loss": 0.0309266435429401
+    },
+    {
+      "setting_id": "target_0003",
+      "objective": "aggregate",
+      "n_scanned": 100000,
+      "n_near_optimal": 6090,
+      "fraction_near_optimal": 0.0609,
+      "min_loss": 0.0007174298983233
+    },
+    {
+      "setting_id": "target_0003",
+      "objective": "extended",
+      "n_scanned": 100000,
+      "n_near_optimal": 0,
+      "fraction_near_optimal": 0.0,
+      "min_loss": 0.0546318437735141
+    },
+    {
+      "setting_id": "target_0004",
+      "objective": "aggregate",
+      "n_scanned": 100000,
+      "n_near_optimal": 1336,
+      "fraction_near_optimal": 0.01336,
+      "min_loss": 0.0008491574920125
+    },
+    {
+      "setting_id": "target_0004",
+      "objective": "extended",
+      "n_scanned": 100000,
+      "n_near_optimal": 10,
+      "fraction_near_optimal": 0.0001,
+      "min_loss": 0.0354838254787303
+    },
+    {
+      "setting_id": "target_0005",
+      "objective": "aggregate",
+      "n_scanned": 100000,
+      "n_near_optimal": 6643,
+      "fraction_near_optimal": 0.06643,
+      "min_loss": 0.0005697193958181
+    },
+    {
+      "setting_id": "target_0005",
+      "objective": "extended",
+      "n_scanned": 100000,
+      "n_near_optimal": 3,
+      "fraction_near_optimal": 3e-05,
+      "min_loss": 0.0382882875368816
+    },
+    {
+      "setting_id": "target_0006",
+      "objective": "aggregate",
+      "n_scanned": 100000,
+      "n_near_optimal": 7909,
+      "fraction_near_optimal": 0.07909,
+      "min_loss": 0.0007570410961956
+    },
+    {
+      "setting_id": "target_0006",
+      "objective": "extended",
+      "n_scanned": 100000,
+      "n_near_optimal": 0,
+      "fraction_near_optimal": 0.0,
+      "min_loss": 0.0567977424375511
+    },
+    {
+      "setting_id": "target_0007",
+      "objective": "aggregate",
+      "n_scanned": 100000,
+      "n_near_optimal": 103,
+      "fraction_near_optimal": 0.00103,
+      "min_loss": 0.0024558416905835
+    },
+    {
+      "setting_id": "target_0007",
+      "objective": "extended",
+      "n_scanned": 100000,
+      "n_near_optimal": 3,
+      "fraction_near_optimal": 3e-05,
+      "min_loss": 0.0414914585366276
+    },
+    {
+      "setting_id": "target_0008",
+      "objective": "aggregate",
+      "n_scanned": 100000,
+      "n_near_optimal": 6748,
+      "fraction_near_optimal": 0.06748,
+      "min_loss": 0.0001039260921548
+    },
+    {
+      "setting_id": "target_0008",
+      "objective": "extended",
+      "n_scanned": 100000,
+      "n_near_optimal": 52,
+      "fraction_near_optimal": 0.00052,
+      "min_loss": 0.0169337482947932
+    },
+    {
+      "setting_id": "target_0009",
+      "objective": "aggregate",
+      "n_scanned": 100000,
+      "n_near_optimal": 5777,
+      "fraction_near_optimal": 0.05777,
+      "min_loss": 0.0016142560908142
+    },
+    {
+      "setting_id": "target_0009",
+      "objective": "extended",
+      "n_scanned": 100000,
+      "n_near_optimal": 51,
+      "fraction_near_optimal": 0.00051,
+      "min_loss": 0.026791247637977
+    }
+  ],
+  "transfer": [
+    {
+      "target": "mean_time_loss_sec",
+      "model": "Ridge",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -12.739779147031294,
+      "RMSE": 28.2446201381237,
+      "MAE": 27.753528865925663,
+      "bias": -27.753528865925663,
+      "MAPE_pct": 24.96914789346423
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "model": "GaussianProcess",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -14.04453977118664,
+      "RMSE": 29.555296167806176,
+      "MAE": 29.102133303950712,
+      "bias": -29.102133303950712,
+      "MAPE_pct": 26.29040972905313
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "model": "RandomForest",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -14.249796968943487,
+      "RMSE": 29.756229056476904,
+      "MAE": 29.17936411336007,
+      "bias": -29.17936411336007,
+      "MAPE_pct": 26.334359514127147
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "model": "LightGBM",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -14.151913305316064,
+      "RMSE": 29.660577369218966,
+      "MAE": 29.133612112182977,
+      "bias": -29.133612112182977,
+      "MAPE_pct": 26.30518880436188
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "model": "CatBoost",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -13.984486811190834,
+      "RMSE": 29.496249570843883,
+      "MAE": 29.03051074298217,
+      "bias": -29.03051074298217,
+      "MAPE_pct": 26.214373906529804
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "model": "XGBoost",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -13.949050177866546,
+      "RMSE": 29.461351262381573,
+      "MAE": 28.982773278775447,
+      "bias": -28.982773278775447,
+      "MAPE_pct": 26.16242609253996
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "model": "Ensemble",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -13.963560351309448,
+      "RMSE": 29.475646004427222,
+      "MAE": 29.006642010878817,
+      "bias": -29.006642010878817,
+      "MAPE_pct": 26.188399999534877
+    },
+    {
+      "target": "total_vkt_km",
+      "model": "Ridge",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -1.7749145321263975,
+      "RMSE": 1208.1289063278437,
+      "MAE": 1179.192321872746,
+      "bias": -1179.192321872746,
+      "MAPE_pct": 40.7252174890004
+    },
+    {
+      "target": "total_vkt_km",
+      "model": "GaussianProcess",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -1.8348889527174872,
+      "RMSE": 1221.1148021434688,
+      "MAE": 1198.8952476284069,
+      "bias": -1198.8952476284069,
+      "MAPE_pct": 41.26932836547381
+    },
+    {
+      "target": "total_vkt_km",
+      "model": "RandomForest",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -1.8556625532690916,
+      "RMSE": 1225.5807000724326,
+      "MAE": 1193.928703873996,
+      "bias": -1193.928703873996,
+      "MAPE_pct": 40.8754722948456
+    },
+    {
+      "target": "total_vkt_km",
+      "model": "LightGBM",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -1.811899147231919,
+      "RMSE": 1216.153348667183,
+      "MAE": 1190.0394371694097,
+      "bias": -1190.0394371694097,
+      "MAPE_pct": 40.94637548560108
+    },
+    {
+      "target": "total_vkt_km",
+      "model": "CatBoost",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -1.8241646505346507,
+      "RMSE": 1218.8028927687908,
+      "MAE": 1195.8124676705538,
+      "bias": -1195.8124676705538,
+      "MAPE_pct": 41.18592453625231
+    },
+    {
+      "target": "total_vkt_km",
+      "model": "XGBoost",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -1.8321872290689336,
+      "RMSE": 1220.5327861978492,
+      "MAE": 1195.3897513496097,
+      "bias": -1195.3897513496097,
+      "MAPE_pct": 41.02606792936685
+    },
+    {
+      "target": "total_vkt_km",
+      "model": "Ensemble",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -1.826610720737708,
+      "RMSE": 1219.3305943284352,
+      "MAE": 1195.6011095100816,
+      "bias": -1195.6011095100816,
+      "MAPE_pct": 41.10599623280958
+    },
+    {
+      "target": "general_time_loss_sec",
+      "model": "Ridge",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -19.26219873680713,
+      "RMSE": 29.05582450650641,
+      "MAE": 28.47622869151219,
+      "bias": -28.47622869151219,
+      "MAPE_pct": 27.080772264672987
+    },
+    {
+      "target": "general_time_loss_sec",
+      "model": "GaussianProcess",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -20.63976376315744,
+      "RMSE": 30.02729260894918,
+      "MAE": 29.48972547066462,
+      "bias": -29.48972547066462,
+      "MAPE_pct": 28.169863193313876
+    },
+    {
+      "target": "general_time_loss_sec",
+      "model": "RandomForest",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -20.93454180304981,
+      "RMSE": 30.231117535480653,
+      "MAE": 29.64029831089339,
+      "bias": -29.64029831089339,
+      "MAPE_pct": 28.30134315020941
+    },
+    {
+      "target": "general_time_loss_sec",
+      "model": "LightGBM",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -20.703706615004972,
+      "RMSE": 30.071623371323614,
+      "MAE": 29.4912738420805,
+      "bias": -29.4912738420805,
+      "MAPE_pct": 28.16757894167734
+    },
+    {
+      "target": "general_time_loss_sec",
+      "model": "CatBoost",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -20.691592542847204,
+      "RMSE": 30.06322985889765,
+      "MAE": 29.489371448024983,
+      "bias": -29.489371448024983,
+      "MAPE_pct": 28.172863262670862
+    },
+    {
+      "target": "general_time_loss_sec",
+      "model": "XGBoost",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -20.67602441675392,
+      "RMSE": 30.05243968388472,
+      "MAE": 29.491747224547133,
+      "bias": -29.491747224547133,
+      "MAPE_pct": 28.161420476795936
+    },
+    {
+      "target": "general_time_loss_sec",
+      "model": "Ensemble",
+      "estimand": "single_run",
+      "n": 100,
+      "R2": -20.67811626747835,
+      "RMSE": 30.053889758397503,
+      "MAE": 29.49055933628606,
+      "bias": -29.49055933628606,
+      "MAPE_pct": 28.1671418697334
+    }
+  ],
+  "transfer_intervals": [
+    {
+      "target": "mean_time_loss_sec",
+      "method": "CQR",
+      "estimand": "single_run",
+      "n": 100,
+      "coverage": 0.0,
+      "CI_low": 3.469446951953614e-18,
+      "CI_high": 0.0369934982069856,
+      "mean_width": 10.548627339954152,
+      "median_width": 8.136175987153962,
+      "interval_score": 514.2069232199391,
+      "qhat": 1.123327522834188
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "SplitCP",
+      "estimand": "single_run",
+      "n": 100,
+      "coverage": 0.0,
+      "CI_low": 3.469446951953614e-18,
+      "CI_high": 0.0369934982069856,
+      "mean_width": 6.080028260394156,
+      "median_width": 6.080028260394158,
+      "interval_score": 525.4125858740287,
+      "qhat": 3.040014130197079
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "GP",
+      "estimand": "single_run",
+      "n": 100,
+      "coverage": 0.0,
+      "CI_low": 3.469446951953614e-18,
+      "CI_high": 0.0369934982069856,
+      "mean_width": 6.443307331010008,
+      "median_width": 6.329185092673313,
+      "interval_score": 524.052900099924,
+      "qhat": 0.0
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "GP-CP",
+      "estimand": "single_run",
+      "n": 100,
+      "coverage": 0.0,
+      "CI_low": 3.469446951953614e-18,
+      "CI_high": 0.0369934982069856,
+      "mean_width": 5.846550201844507,
+      "median_width": 5.742997575637901,
+      "interval_score": 529.4237142624137,
+      "qhat": 1.4925128991403165
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "CQR",
+      "estimand": "single_run",
+      "n": 100,
+      "coverage": 0.02,
+      "CI_low": 0.0055019675501623,
+      "CI_high": 0.0700117907285438,
+      "mean_width": 778.9606526961621,
+      "median_width": 738.8736630550969,
+      "interval_score": 17287.105166050264,
+      "qhat": 62.1306469138209
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "SplitCP",
+      "estimand": "single_run",
+      "n": 100,
+      "coverage": 0.0,
+      "CI_low": 3.469446951953614e-18,
+      "CI_high": 0.0369934982069856,
+      "mean_width": 219.62873416593945,
+      "median_width": 219.62873416593948,
+      "interval_score": 21935.363582708174,
+      "qhat": 109.81436708296974
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "GP",
+      "estimand": "single_run",
+      "n": 100,
+      "coverage": 0.0,
+      "CI_low": 3.469446951953614e-18,
+      "CI_high": 0.0369934982069856,
+      "mean_width": 163.40953584907598,
+      "median_width": 160.10793205447612,
+      "interval_score": 22507.219129926445,
+      "qhat": 0.0
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "GP-CP",
+      "estimand": "single_run",
+      "n": 100,
+      "coverage": 0.0,
+      "CI_low": 3.469446951953614e-18,
+      "CI_high": 0.0369934982069856,
+      "mean_width": 165.42731488917016,
+      "median_width": 162.08494292947626,
+      "interval_score": 22489.0591185656,
+      "qhat": 1.6651642603257135
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "CQR",
+      "estimand": "single_run",
+      "n": 100,
+      "coverage": 0.0,
+      "CI_low": 3.469446951953614e-18,
+      "CI_high": 0.0369934982069856,
+      "mean_width": 8.014673789017461,
+      "median_width": 5.810309449998456,
+      "interval_score": 534.8632524596401,
+      "qhat": 0.4814682027534047
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "SplitCP",
+      "estimand": "single_run",
+      "n": 100,
+      "coverage": 0.0,
+      "CI_low": 3.469446951953614e-18,
+      "CI_high": 0.0369934982069856,
+      "mean_width": 5.5262622357090825,
+      "median_width": 5.526262235709083,
+      "interval_score": 540.0748266043396,
+      "qhat": 2.7631311178545417
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "GP",
+      "estimand": "single_run",
+      "n": 100,
+      "coverage": 0.0,
+      "CI_low": 3.469446951953614e-18,
+      "CI_high": 0.0369934982069856,
+      "mean_width": 6.043169144497179,
+      "median_width": 5.9708718547734065,
+      "interval_score": 535.4059871128178,
+      "qhat": 0.0
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "GP-CP",
+      "estimand": "single_run",
+      "n": 100,
+      "coverage": 0.0,
+      "CI_low": 3.469446951953614e-18,
+      "CI_high": 0.0369934982069856,
+      "mean_width": 5.606734495744079,
+      "median_width": 5.539658480072376,
+      "interval_score": 539.3338989515956,
+      "qhat": 1.526063121876414
+    }
+  ],
+  "adaptation": [
+    {
+      "target": "mean_time_loss_sec",
+      "method": "Frozen_source",
+      "R2": -6.545101927196776,
+      "RMSE": 30.75988098800138,
+      "MAE": 30.264191869850237,
+      "bias": -30.264191869850237,
+      "MAPE_pct": 26.695108175764688
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "Affine_adaptation",
+      "R2": 0.7466471488302828,
+      "RMSE": 5.636571148695003,
+      "MAE": 4.592553865375908,
+      "bias": -1.17652644508558,
+      "MAPE_pct": 4.039823989554424
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "Residual_adaptation",
+      "R2": 0.9273834583365111,
+      "RMSE": 3.0176570126265716,
+      "MAE": 2.126984294904814,
+      "bias": -0.6958364285259344,
+      "MAPE_pct": 1.8134744099373823
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "Target_only",
+      "R2": 0.8842487730079885,
+      "RMSE": 3.809911581986946,
+      "MAE": 2.597843316744936,
+      "bias": -0.861834126307822,
+      "MAPE_pct": 2.19004852043441
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "Frozen_source",
+      "R2": -1.3611379995830588,
+      "RMSE": 1248.7435602919652,
+      "MAE": 1224.4778443852138,
+      "bias": -1224.4778443852138,
+      "MAPE_pct": 42.572885980381734
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "Affine_adaptation",
+      "R2": 0.9166566921210996,
+      "RMSE": 234.6107689949378,
+      "MAE": 188.61984963779253,
+      "bias": -10.680465371722796,
+      "MAPE_pct": 6.573841476430542
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "Residual_adaptation",
+      "R2": 0.9825241632458396,
+      "RMSE": 107.43148176998592,
+      "MAE": 84.33924190609748,
+      "bias": -2.585013386190458,
+      "MAPE_pct": 2.8871369467328374
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "Target_only",
+      "R2": 0.960054989090337,
+      "RMSE": 162.42162391450915,
+      "MAE": 132.88992218175454,
+      "bias": -15.668081384272568,
+      "MAPE_pct": 4.429252058987335
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "Frozen_source",
+      "R2": -9.813682495477083,
+      "RMSE": 31.257374600231717,
+      "MAE": 30.670884761859316,
+      "bias": -30.670884761859316,
+      "MAPE_pct": 28.836216875992545
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "Affine_adaptation",
+      "R2": 0.6294788805975958,
+      "RMSE": 5.7859166663865835,
+      "MAE": 4.867349836000829,
+      "bias": -1.112049893625491,
+      "MAPE_pct": 4.575130136501124
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "Residual_adaptation",
+      "R2": 0.9277863385925096,
+      "RMSE": 2.5543204079593065,
+      "MAE": 1.8450866186459864,
+      "bias": -0.4207334894947226,
+      "MAPE_pct": 1.7000893145978506
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "Target_only",
+      "R2": 0.8949066090326585,
+      "RMSE": 3.081437711004524,
+      "MAE": 2.2477077138254886,
+      "bias": -0.5746787512773325,
+      "MAPE_pct": 2.0244660966701105
+    }
+  ],
+  "adaptation_intervals": [
+    {
+      "target": "mean_time_loss_sec",
+      "method": "Frozen_source",
+      "coverage": 0.81,
+      "CI_low": 0.7222115462093562,
+      "CI_high": 0.8748524849023126,
+      "width": 70.77488943322513,
+      "n_cal": 100,
+      "n_test": 100
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "Affine_adaptation",
+      "coverage": 0.82,
+      "CI_low": 0.7333264161369926,
+      "CI_high": 0.8829977450105364,
+      "width": 14.686352675163931,
+      "n_cal": 100,
+      "n_test": 100
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "Residual_adaptation",
+      "coverage": 0.88,
+      "CI_low": 0.8018790057328857,
+      "CI_high": 0.9300059356298052,
+      "width": 8.93355022614631,
+      "n_cal": 100,
+      "n_test": 100
+    },
+    {
+      "target": "mean_time_loss_sec",
+      "method": "Target_only",
+      "coverage": 0.85,
+      "CI_low": 0.7671644040916763,
+      "CI_high": 0.9069401471634336,
+      "width": 9.737898873247332,
+      "n_cal": 100,
+      "n_test": 100
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "Frozen_source",
+      "coverage": 0.89,
+      "CI_low": 0.8136870349691969,
+      "CI_high": 0.9374580364293544,
+      "width": 3061.7254720674728,
+      "n_cal": 100,
+      "n_test": 100
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "Affine_adaptation",
+      "coverage": 0.92,
+      "CI_low": 0.8500189229905127,
+      "CI_high": 0.9589065385156194,
+      "width": 837.0000719069121,
+      "n_cal": 100,
+      "n_test": 100
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "Residual_adaptation",
+      "coverage": 0.87,
+      "CI_low": 0.7901964855992357,
+      "CI_high": 0.9224283257275948,
+      "width": 342.5130148516764,
+      "n_cal": 100,
+      "n_test": 100
+    },
+    {
+      "target": "total_vkt_km",
+      "method": "Target_only",
+      "coverage": 0.78,
+      "CI_low": 0.6892964648501421,
+      "CI_high": 0.8499871761539459,
+      "width": 377.4708854753062,
+      "n_cal": 100,
+      "n_test": 100
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "Frozen_source",
+      "coverage": 0.85,
+      "CI_low": 0.7671644040916763,
+      "CI_high": 0.9069401471634336,
+      "width": 74.30782008693359,
+      "n_cal": 100,
+      "n_test": 100
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "Affine_adaptation",
+      "coverage": 0.79,
+      "CI_low": 0.7002003116591013,
+      "CI_high": 0.858343459380847,
+      "width": 14.874448628343655,
+      "n_cal": 100,
+      "n_test": 100
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "Residual_adaptation",
+      "coverage": 0.88,
+      "CI_low": 0.8018790057328857,
+      "CI_high": 0.9300059356298052,
+      "width": 7.433032964515888,
+      "n_cal": 100,
+      "n_test": 100
+    },
+    {
+      "target": "general_time_loss_sec",
+      "method": "Target_only",
+      "coverage": 0.83,
+      "CI_low": 0.7445199523239887,
+      "CI_high": 0.8910643388594006,
+      "width": 8.193192926520538,
+      "n_cal": 100,
+      "n_test": 100
+    }
+  ],
+  "teleport": {
+    "n": 24,
+    "max_abs_delay_diff": 0.0,
+    "teleports_total": 0.0
+  },
+  "runtime": {
+    "total_simulations": 10216,
+    "sumo_pipeline_mean_sec": 3.4711692561935266,
+    "sumo_pipeline_median_sec": 3.2184523755022383,
+    "total_cpu_hours": 9.850406978131408,
+    "surrogate_sec_per_prediction": 6.574120800360106e-06,
+    "speedup": 528005.0917231988,
+    "workers": 8,
+    "machine": "arm"
+  },
+  "audit": [
+    {
+      "experiment": "adapt_calibration_runs_grid8",
+      "runs": 100,
+      "unique_runs": 100,
+      "mean_sec": 6.845412780339611,
+      "total_min": 11.40902130056602,
+      "runs_with_teleports": 0,
+      "max_teleports": 0.0,
+      "min_completion": 0.992966002344666
+    },
+    {
+      "experiment": "adapt_runs_grid8",
+      "runs": 128,
+      "unique_runs": 128,
+      "mean_sec": 6.48843175099114,
+      "total_min": 13.841987735447765,
+      "runs_with_teleports": 0,
+      "max_teleports": 0.0,
+      "min_completion": 0.9899328859060402
+    },
+    {
+      "experiment": "adapt_test_runs_grid8",
+      "runs": 100,
+      "unique_runs": 100,
+      "mean_sec": 7.682019888190044,
+      "total_min": 12.803366480316738,
+      "runs_with_teleports": 0,
+      "max_teleports": 0.0,
+      "min_completion": 0.992084432717678
+    },
+    {
+      "experiment": "calibration",
+      "runs": 200,
+      "unique_runs": 200,
+      "mean_sec": 3.11017513225459,
+      "total_min": 10.367250440848633,
+      "runs_with_teleports": 0,
+      "max_teleports": 0.0,
+      "min_completion": 0.9919354838709676
+    },
+    {
+      "experiment": "inverse_target_runs",
+      "runs": 100,
+      "unique_runs": 100,
+      "mean_sec": 3.758898405090003,
+      "total_min": 6.264830675150006,
+      "runs_with_teleports": 0,
+      "max_teleports": 0.0,
+      "min_completion": 0.9899425287356322
+    },
+    {
+      "experiment": "inverse_validation_runs",
+      "runs": 200,
+      "unique_runs": 200,
+      "mean_sec": 3.803184683054387,
+      "total_min": 12.677282276847958,
+      "runs_with_teleports": 0,
+      "max_teleports": 0.0,
+      "min_completion": 0.9902557856272838
+    },
+    {
+      "experiment": "mechanism_runs",
+      "runs": 1280,
+      "unique_runs": 1280,
+      "mean_sec": 3.546489142245304,
+      "total_min": 75.65843503456648,
+      "runs_with_teleports": 0,
+      "max_teleports": 0.0,
+      "min_completion": 0.9945652173913044
+    },
+    {
+      "experiment": "recourse_runs",
+      "runs": 600,
+      "unique_runs": 600,
+      "mean_sec": 3.1094919493067086,
+      "total_min": 31.09491949306709,
+      "runs_with_teleports": 0,
+      "max_teleports": 0.0,
+      "min_completion": 0.9910913140311804
+    },
+    {
+      "experiment": "replication_runs",
+      "runs": 240,
+      "unique_runs": 240,
+      "mean_sec": 2.850036384533602,
+      "total_min": 11.400145538134408,
+      "runs_with_teleports": 0,
+      "max_teleports": 0.0,
+      "min_completion": 0.9922992299229924
+    },
+    {
+      "experiment": "sobol_sumo_runs",
+      "runs": 5632,
+      "unique_runs": 5632,
+      "mean_sec": 3.407883472104668,
+      "total_min": 319.8866619148915,
+      "runs_with_teleports": 0,
+      "max_teleports": 0.0,
+      "min_completion": 0.9865470852017936
+    },
+    {
+      "experiment": "teleport_disabled_runs",
+      "runs": 24,
+      "unique_runs": 24,
+      "mean_sec": 4.583366503459426,
+      "total_min": 1.8333466013837705,
+      "runs_with_teleports": 0,
+      "max_teleports": 0.0,
+      "min_completion": 0.9902755267423016
+    },
+    {
+      "experiment": "test",
+      "runs": 1000,
+      "unique_runs": 1000,
+      "mean_sec": 2.8577923793438096,
+      "total_min": 47.62987298906349,
+      "runs_with_teleports": 0,
+      "max_teleports": 0.0,
+      "min_completion": 0.9887482419127988
+    },
+    {
+      "experiment": "train",
+      "runs": 512,
+      "unique_runs": 512,
+      "mean_sec": 2.8831601992268503,
+      "total_min": 24.602967033402457,
+      "runs_with_teleports": 0,
+      "max_teleports": 0.0,
+      "min_completion": 0.9893617021276596
+    },
+    {
+      "experiment": "transfer_runs_grid8",
+      "runs": 100,
+      "unique_runs": 100,
+      "mean_sec": 6.932598704518896,
+      "total_min": 11.55433117419816,
+      "runs_with_teleports": 0,
+      "max_teleports": 0.0,
+      "min_completion": 0.9937353171495692
+    }
+  ]
+}

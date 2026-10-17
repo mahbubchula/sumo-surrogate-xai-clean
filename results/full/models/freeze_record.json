@@ -1,0 +1,21 @@
+{
+  "frozen_at": "2026-10-17 09:59:53",
+  "sha256": "91ccfd7daab22f62b8650ac3bb6dae3c13a099787cc6dbce96b93cbf89871f94",
+  "trained_on": "train partition only",
+  "n_train": 512,
+  "primary": "equal-weight CatBoost + XGBoost ensemble",
+  "hyperparameters": "fixed a priori; no tuning on calibration or test data",
+  "targets": [
+    "mean_time_loss_sec",
+    "total_vkt_km",
+    "general_time_loss_sec"
+  ],
+  "auxiliary_targets": [
+    "total_completed_trips",
+    "arrivals_hour_6",
+    "arrivals_hour_7",
+    "arrivals_hour_8",
+    "arrivals_hour_9",
+    "arrivals_hour_10"
+  ]
+}

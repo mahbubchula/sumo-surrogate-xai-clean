@@ -1,0 +1,48 @@
+{
+  "sumo": "Eclipse SUMO sumo 1.28.0",
+  "physics": {
+    "begin": 23400,
+    "end": 37800,
+    "teleport": 300,
+    "grid_number": 8,
+    "block_length": 250,
+    "lanes": 2,
+    "speed": 13.89,
+    "inhabitants": 3500,
+    "incomingTraffic": 450
+  },
+  "extra_sumo_args": [],
+  "fingerprint": "e9634b55dd204be0822663bc77cb6473b170eb2c2a653cd6ad6c75f54059e37b",
+  "edges": 224,
+  "zones": {
+    "employment": 67,
+    "residential": 157
+  },
+  "gates": [
+    "A0A1",
+    "A2A1",
+    "H5H6",
+    "H7H6"
+  ],
+  "schools": [
+    "A3B3",
+    "E0D0",
+    "H4H3"
+  ],
+  "bus_forward": [
+    "A0A1",
+    "A3A2",
+    "A5B5",
+    "B0C0",
+    "B2C2",
+    "B4C4"
+  ],
+  "bus_reverse": [
+    "A0B0",
+    "A3A4",
+    "A6A5",
+    "B1A1",
+    "B3A3",
+    "B5A5"
+  ]
+}

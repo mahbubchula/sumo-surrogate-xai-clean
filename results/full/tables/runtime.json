@@ -1,0 +1,10 @@
+{
+  "total_simulations": 10216,
+  "sumo_pipeline_mean_sec": 3.4711692561935266,
+  "sumo_pipeline_median_sec": 3.2184523755022383,
+  "total_cpu_hours": 9.850406978131408,
+  "surrogate_sec_per_prediction": 6.574120800360106e-06,
+  "speedup": 528005.0917231988,
+  "workers": 8,
+  "machine": "arm"
+}

@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+cache/
+results/smoke/
+results/*/routing/
+results/*/models/*.joblib
+*.tmp
+.ipynb_checkpoints/
+manuscript/
+results/*/figures/tiff/
+results/*_results_archive.zip
+results/full_run.log

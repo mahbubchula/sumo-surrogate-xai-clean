@@ -1,0 +1,13 @@
+target,method,MAE_difference_vs_frozen,CI_low,CI_high
+mean_time_loss_sec,Frozen_source,0.0,0.0,0.0
+mean_time_loss_sec,Affine_adaptation,-25.671638004474335,-26.672742352920764,-24.604579815561603
+mean_time_loss_sec,Residual_adaptation,-28.137207574945425,-29.174618947286767,-27.10737643093523
+mean_time_loss_sec,Target_only,-27.666348553105305,-28.801477986521803,-26.53153179262484
+total_vkt_km,Frozen_source,0.0,0.0,0.0
+total_vkt_km,Affine_adaptation,-1035.8579947474211,-1081.8473052716247,-988.6657842092146
+total_vkt_km,Residual_adaptation,-1140.1386024791163,-1188.5008781773267,-1093.4490772447464
+total_vkt_km,Target_only,-1091.5879222034591,-1135.002142285506,-1047.78184565668
+general_time_loss_sec,Frozen_source,0.0,0.0,0.0
+general_time_loss_sec,Affine_adaptation,-25.80353492585849,-26.901715942674876,-24.675759059785747
+general_time_loss_sec,Residual_adaptation,-28.825798143213337,-30.01223997756298,-27.636499612334298
+general_time_loss_sec,Target_only,-28.423177048033832,-29.67210124966319,-27.19217553926338

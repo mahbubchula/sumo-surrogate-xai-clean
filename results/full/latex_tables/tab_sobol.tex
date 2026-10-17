@@ -1,0 +1,66 @@
+\begin{table}[!htbp]
+\centering
+\small
+\caption{Direct-SUMO and surrogate Sobol indices.}
+\label{tab:sobol}
+\begin{tabular}{lllrrrr}
+\toprule
+target & estimator & parameter & S1 & ST & ST\_low & ST\_high \\
+\midrule
+mean\_time\_loss\_sec & SUMO noise-corrected & carRate & 0.031 & 0.024 & 0.017 & 0.032 \\
+mean\_time\_loss\_sec & SUMO noise-corrected & carPreference & -0.015 & 0.018 & 0.012 & 0.027 \\
+mean\_time\_loss\_sec & SUMO noise-corrected & unemploymentRate & -0.032 & 0.014 & 0.007 & 0.023 \\
+mean\_time\_loss\_sec & SUMO noise-corrected & freeTimeActivityRate & -0.065 & 0.009 & 0.002 & 0.015 \\
+mean\_time\_loss\_sec & SUMO noise-corrected & departureVariation & 0.722 & 0.739 & 0.633 & 0.853 \\
+mean\_time\_loss\_sec & SUMO noise-corrected & footDistanceLimit & -0.171 & 0.076 & 0.059 & 0.095 \\
+mean\_time\_loss\_sec & SUMO noise-corrected & busHeadway & 0.090 & 0.207 & 0.160 & 0.266 \\
+mean\_time\_loss\_sec & SUMO noise-corrected & uniformRandomTraffic & -0.090 & 0.025 & 0.017 & 0.034 \\
+mean\_time\_loss\_sec & SUMO noise-corrected & morningPeakProp & -0.103 & 0.030 & 0.017 & 0.044 \\
+total\_vkt\_km & SUMO noise-corrected & carRate & 0.094 & 0.116 & 0.099 & 0.137 \\
+total\_vkt\_km & SUMO noise-corrected & carPreference & 0.011 & 0.023 & 0.018 & 0.027 \\
+total\_vkt\_km & SUMO noise-corrected & unemploymentRate & 0.009 & 0.012 & 0.010 & 0.015 \\
+total\_vkt\_km & SUMO noise-corrected & freeTimeActivityRate & -0.009 & 0.001 & 0.000 & 0.001 \\
+total\_vkt\_km & SUMO noise-corrected & departureVariation & -0.000 & -0.000 & -0.001 & 0.000 \\
+total\_vkt\_km & SUMO noise-corrected & footDistanceLimit & 0.794 & 0.851 & 0.755 & 0.947 \\
+total\_vkt\_km & SUMO noise-corrected & busHeadway & 0.001 & 0.017 & 0.014 & 0.020 \\
+total\_vkt\_km & SUMO noise-corrected & uniformRandomTraffic & 0.011 & 0.016 & 0.013 & 0.019 \\
+total\_vkt\_km & SUMO noise-corrected & morningPeakProp & -0.011 & 0.003 & 0.002 & 0.004 \\
+general\_time\_loss\_sec & SUMO noise-corrected & carRate & 0.069 & 0.023 & 0.015 & 0.034 \\
+general\_time\_loss\_sec & SUMO noise-corrected & carPreference & -0.001 & 0.033 & 0.022 & 0.047 \\
+general\_time\_loss\_sec & SUMO noise-corrected & unemploymentRate & -0.011 & 0.020 & 0.010 & 0.032 \\
+general\_time\_loss\_sec & SUMO noise-corrected & freeTimeActivityRate & -0.081 & 0.008 & 0.000 & 0.015 \\
+general\_time\_loss\_sec & SUMO noise-corrected & departureVariation & 0.940 & 0.982 & 0.865 & 1.092 \\
+general\_time\_loss\_sec & SUMO noise-corrected & footDistanceLimit & -0.074 & 0.074 & 0.055 & 0.096 \\
+general\_time\_loss\_sec & SUMO noise-corrected & busHeadway & -0.116 & 0.014 & 0.007 & 0.023 \\
+general\_time\_loss\_sec & SUMO noise-corrected & uniformRandomTraffic & -0.086 & 0.023 & 0.012 & 0.035 \\
+general\_time\_loss\_sec & SUMO noise-corrected & morningPeakProp & -0.092 & 0.041 & 0.022 & 0.066 \\
+mean\_time\_loss\_sec & Surrogate, same design & carRate & 0.017 & 0.014 & 0.011 & 0.017 \\
+mean\_time\_loss\_sec & Surrogate, same design & carPreference & -0.003 & 0.003 & 0.003 & 0.004 \\
+mean\_time\_loss\_sec & Surrogate, same design & unemploymentRate & -0.003 & 0.001 & 0.001 & 0.002 \\
+mean\_time\_loss\_sec & Surrogate, same design & freeTimeActivityRate & -0.002 & 0.001 & 0.001 & 0.001 \\
+mean\_time\_loss\_sec & Surrogate, same design & departureVariation & 0.736 & 0.769 & 0.686 & 0.861 \\
+mean\_time\_loss\_sec & Surrogate, same design & footDistanceLimit & -0.015 & 0.040 & 0.032 & 0.050 \\
+mean\_time\_loss\_sec & Surrogate, same design & busHeadway & 0.167 & 0.197 & 0.158 & 0.245 \\
+mean\_time\_loss\_sec & Surrogate, same design & uniformRandomTraffic & 0.020 & 0.013 & 0.010 & 0.015 \\
+mean\_time\_loss\_sec & Surrogate, same design & morningPeakProp & 0.015 & 0.006 & 0.004 & 0.008 \\
+total\_vkt\_km & Surrogate, same design & carRate & 0.083 & 0.107 & 0.092 & 0.125 \\
+total\_vkt\_km & Surrogate, same design & carPreference & 0.013 & 0.020 & 0.017 & 0.023 \\
+total\_vkt\_km & Surrogate, same design & unemploymentRate & 0.010 & 0.010 & 0.009 & 0.012 \\
+total\_vkt\_km & Surrogate, same design & freeTimeActivityRate & 0.001 & 0.001 & 0.001 & 0.001 \\
+total\_vkt\_km & Surrogate, same design & departureVariation & -0.000 & 0.000 & 0.000 & 0.000 \\
+total\_vkt\_km & Surrogate, same design & footDistanceLimit & 0.827 & 0.857 & 0.765 & 0.951 \\
+total\_vkt\_km & Surrogate, same design & busHeadway & 0.003 & 0.014 & 0.012 & 0.017 \\
+total\_vkt\_km & Surrogate, same design & uniformRandomTraffic & 0.012 & 0.013 & 0.011 & 0.015 \\
+total\_vkt\_km & Surrogate, same design & morningPeakProp & 0.001 & 0.002 & 0.001 & 0.002 \\
+general\_time\_loss\_sec & Surrogate, same design & carRate & 0.019 & 0.009 & 0.007 & 0.011 \\
+general\_time\_loss\_sec & Surrogate, same design & carPreference & 0.002 & 0.012 & 0.009 & 0.016 \\
+general\_time\_loss\_sec & Surrogate, same design & unemploymentRate & 0.005 & 0.003 & 0.002 & 0.004 \\
+general\_time\_loss\_sec & Surrogate, same design & freeTimeActivityRate & -0.001 & 0.000 & 0.000 & 0.001 \\
+general\_time\_loss\_sec & Surrogate, same design & departureVariation & 0.926 & 0.945 & 0.858 & 1.026 \\
+general\_time\_loss\_sec & Surrogate, same design & footDistanceLimit & 0.029 & 0.043 & 0.034 & 0.055 \\
+general\_time\_loss\_sec & Surrogate, same design & busHeadway & 0.000 & 0.001 & 0.001 & 0.002 \\
+general\_time\_loss\_sec & Surrogate, same design & uniformRandomTraffic & 0.000 & 0.006 & 0.005 & 0.007 \\
+general\_time\_loss\_sec & Surrogate, same design & morningPeakProp & 0.010 & 0.007 & 0.005 & 0.010 \\
+\bottomrule
+\end{tabular}
+\end{table}

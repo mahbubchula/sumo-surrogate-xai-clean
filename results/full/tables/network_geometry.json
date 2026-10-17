@@ -1,0 +1,2042 @@
+{
+  "A0A1": {
+    "points": [
+      [
+        4.8,
+        6.4
+      ],
+      [
+        4.8,
+        239.6
+      ]
+    ],
+    "length": 233.2,
+    "zone": "residential",
+    "bus": true,
+    "gate": true,
+    "school": false
+  },
+  "A0B0": {
+    "points": [
+      [
+        6.4,
+        -4.8
+      ],
+      [
+        239.6,
+        -4.8
+      ]
+    ],
+    "length": 233.2,
+    "zone": "residential",
+    "bus": true,
+    "gate": false,
+    "school": false
+  },
+  "A1A0": {
+    "points": [
+      [
+        -4.8,
+        239.6
+      ],
+      [
+        -4.8,
+        6.4
+      ]
+    ],
+    "length": 233.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "A1A2": {
+    "points": [
+      [
+        4.8,
+        260.4
+      ],
+      [
+        4.8,
+        489.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "A1B1": {
+    "points": [
+      [
+        10.4,
+        245.2
+      ],
+      [
+        239.6,
+        245.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "A2A1": {
+    "points": [
+      [
+        -4.8,
+        489.6
+      ],
+      [
+        -4.8,
+        260.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": true,
+    "school": false
+  },
+  "A2A3": {
+    "points": [
+      [
+        4.8,
+        510.4
+      ],
+      [
+        4.8,
+        739.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "A2B2": {
+    "points": [
+      [
+        10.4,
+        495.2
+      ],
+      [
+        239.6,
+        495.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "A3A2": {
+    "points": [
+      [
+        -4.8,
+        739.6
+      ],
+      [
+        -4.8,
+        510.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": true,
+    "gate": false,
+    "school": false
+  },
+  "A3A4": {
+    "points": [
+      [
+        4.8,
+        760.4
+      ],
+      [
+        4.8,
+        989.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": true,
+    "gate": false,
+    "school": false
+  },
+  "A3B3": {
+    "points": [
+      [
+        10.4,
+        745.2
+      ],
+      [
+        239.6,
+        745.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": true
+  },
+  "A4A3": {
+    "points": [
+      [
+        -4.8,
+        989.6
+      ],
+      [
+        -4.8,
+        760.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "A4A5": {
+    "points": [
+      [
+        4.8,
+        1010.4
+      ],
+      [
+        4.8,
+        1243.6
+      ]
+    ],
+    "length": 233.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "A4B4": {
+    "points": [
+      [
+        10.4,
+        995.2
+      ],
+      [
+        239.6,
+        995.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "A5A4": {
+    "points": [
+      [
+        -4.8,
+        1243.6
+      ],
+      [
+        -4.8,
+        1010.4
+      ]
+    ],
+    "length": 233.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "A5B5": {
+    "points": [
+      [
+        6.4,
+        1245.2
+      ],
+      [
+        239.6,
+        1245.2
+      ]
+    ],
+    "length": 233.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "B0A0": {
+    "points": [
+      [
+        239.6,
+        4.8
+      ],
+      [
+        6.4,
+        4.8
+      ]
+    ],
+    "length": 233.2,
+    "zone": "residential",
+    "bus": true,
+    "gate": false,
+    "school": false
+  },
+  "B0B1": {
+    "points": [
+      [
+        254.8,
+        10.4
+      ],
+      [
+        254.8,
+        239.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": true,
+    "gate": false,
+    "school": false
+  },
+  "B0C0": {
+    "points": [
+      [
+        260.4,
+        -4.8
+      ],
+      [
+        489.6,
+        -4.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "B1A1": {
+    "points": [
+      [
+        239.6,
+        254.8
+      ],
+      [
+        10.4,
+        254.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "B1B0": {
+    "points": [
+      [
+        245.2,
+        239.6
+      ],
+      [
+        245.2,
+        10.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "B1B2": {
+    "points": [
+      [
+        254.8,
+        260.4
+      ],
+      [
+        254.8,
+        489.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "B1C1": {
+    "points": [
+      [
+        260.4,
+        245.2
+      ],
+      [
+        489.6,
+        245.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "B2A2": {
+    "points": [
+      [
+        239.6,
+        504.8
+      ],
+      [
+        10.4,
+        504.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "B2B1": {
+    "points": [
+      [
+        245.2,
+        489.6
+      ],
+      [
+        245.2,
+        260.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": true,
+    "gate": false,
+    "school": false
+  },
+  "B2B3": {
+    "points": [
+      [
+        254.8,
+        510.4
+      ],
+      [
+        254.8,
+        739.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": true,
+    "gate": false,
+    "school": false
+  },
+  "B2C2": {
+    "points": [
+      [
+        260.4,
+        495.2
+      ],
+      [
+        489.6,
+        495.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "B3A3": {
+    "points": [
+      [
+        239.6,
+        754.8
+      ],
+      [
+        10.4,
+        754.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "B3B2": {
+    "points": [
+      [
+        245.2,
+        739.6
+      ],
+      [
+        245.2,
+        510.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "B3B4": {
+    "points": [
+      [
+        254.8,
+        760.4
+      ],
+      [
+        254.8,
+        989.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "B3C3": {
+    "points": [
+      [
+        260.4,
+        745.2
+      ],
+      [
+        489.6,
+        745.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "B4A4": {
+    "points": [
+      [
+        239.6,
+        1004.8
+      ],
+      [
+        10.4,
+        1004.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "B4B3": {
+    "points": [
+      [
+        245.2,
+        989.6
+      ],
+      [
+        245.2,
+        760.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": true,
+    "gate": false,
+    "school": false
+  },
+  "B4B5": {
+    "points": [
+      [
+        254.8,
+        1010.4
+      ],
+      [
+        254.8,
+        1239.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": true,
+    "gate": false,
+    "school": false
+  },
+  "B4C4": {
+    "points": [
+      [
+        260.4,
+        995.2
+      ],
+      [
+        489.6,
+        995.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "B5A5": {
+    "points": [
+      [
+        239.6,
+        1254.8
+      ],
+      [
+        6.4,
+        1254.8
+      ]
+    ],
+    "length": 233.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "B5B4": {
+    "points": [
+      [
+        245.2,
+        1239.6
+      ],
+      [
+        245.2,
+        1010.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "B5C5": {
+    "points": [
+      [
+        260.4,
+        1245.2
+      ],
+      [
+        489.6,
+        1245.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C0B0": {
+    "points": [
+      [
+        489.6,
+        4.8
+      ],
+      [
+        260.4,
+        4.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C0C1": {
+    "points": [
+      [
+        504.8,
+        10.4
+      ],
+      [
+        504.8,
+        239.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C0D0": {
+    "points": [
+      [
+        510.4,
+        -4.8
+      ],
+      [
+        739.6,
+        -4.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": true,
+    "gate": false,
+    "school": false
+  },
+  "C1B1": {
+    "points": [
+      [
+        489.6,
+        254.8
+      ],
+      [
+        260.4,
+        254.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": true,
+    "gate": false,
+    "school": false
+  },
+  "C1C0": {
+    "points": [
+      [
+        495.2,
+        239.6
+      ],
+      [
+        495.2,
+        10.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C1C2": {
+    "points": [
+      [
+        504.8,
+        260.4
+      ],
+      [
+        504.8,
+        489.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C1D1": {
+    "points": [
+      [
+        510.4,
+        245.2
+      ],
+      [
+        739.6,
+        245.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C2B2": {
+    "points": [
+      [
+        489.6,
+        504.8
+      ],
+      [
+        260.4,
+        504.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C2C1": {
+    "points": [
+      [
+        495.2,
+        489.6
+      ],
+      [
+        495.2,
+        260.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C2C3": {
+    "points": [
+      [
+        504.8,
+        510.4
+      ],
+      [
+        504.8,
+        739.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C2D2": {
+    "points": [
+      [
+        510.4,
+        495.2
+      ],
+      [
+        739.6,
+        495.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C3B3": {
+    "points": [
+      [
+        489.6,
+        754.8
+      ],
+      [
+        260.4,
+        754.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C3C2": {
+    "points": [
+      [
+        495.2,
+        739.6
+      ],
+      [
+        495.2,
+        510.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C3C4": {
+    "points": [
+      [
+        504.8,
+        760.4
+      ],
+      [
+        504.8,
+        989.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C3D3": {
+    "points": [
+      [
+        510.4,
+        745.2
+      ],
+      [
+        739.6,
+        745.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C4B4": {
+    "points": [
+      [
+        489.6,
+        1004.8
+      ],
+      [
+        260.4,
+        1004.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C4C3": {
+    "points": [
+      [
+        495.2,
+        989.6
+      ],
+      [
+        495.2,
+        760.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C4C5": {
+    "points": [
+      [
+        504.8,
+        1010.4
+      ],
+      [
+        504.8,
+        1239.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C4D4": {
+    "points": [
+      [
+        510.4,
+        995.2
+      ],
+      [
+        739.6,
+        995.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C5B5": {
+    "points": [
+      [
+        489.6,
+        1254.8
+      ],
+      [
+        260.4,
+        1254.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C5C4": {
+    "points": [
+      [
+        495.2,
+        1239.6
+      ],
+      [
+        495.2,
+        1010.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "C5D5": {
+    "points": [
+      [
+        510.4,
+        1245.2
+      ],
+      [
+        739.6,
+        1245.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D0C0": {
+    "points": [
+      [
+        739.6,
+        4.8
+      ],
+      [
+        510.4,
+        4.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": true
+  },
+  "D0D1": {
+    "points": [
+      [
+        754.8,
+        10.4
+      ],
+      [
+        754.8,
+        239.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D0E0": {
+    "points": [
+      [
+        760.4,
+        -4.8
+      ],
+      [
+        989.6,
+        -4.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D1C1": {
+    "points": [
+      [
+        739.6,
+        254.8
+      ],
+      [
+        510.4,
+        254.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D1D0": {
+    "points": [
+      [
+        745.2,
+        239.6
+      ],
+      [
+        745.2,
+        10.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D1D2": {
+    "points": [
+      [
+        754.8,
+        260.4
+      ],
+      [
+        754.8,
+        489.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D1E1": {
+    "points": [
+      [
+        760.4,
+        245.2
+      ],
+      [
+        989.6,
+        245.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D2C2": {
+    "points": [
+      [
+        739.6,
+        504.8
+      ],
+      [
+        510.4,
+        504.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D2D1": {
+    "points": [
+      [
+        745.2,
+        489.6
+      ],
+      [
+        745.2,
+        260.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D2D3": {
+    "points": [
+      [
+        754.8,
+        510.4
+      ],
+      [
+        754.8,
+        739.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D2E2": {
+    "points": [
+      [
+        760.4,
+        495.2
+      ],
+      [
+        989.6,
+        495.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D3C3": {
+    "points": [
+      [
+        739.6,
+        754.8
+      ],
+      [
+        510.4,
+        754.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D3D2": {
+    "points": [
+      [
+        745.2,
+        739.6
+      ],
+      [
+        745.2,
+        510.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D3D4": {
+    "points": [
+      [
+        754.8,
+        760.4
+      ],
+      [
+        754.8,
+        989.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D3E3": {
+    "points": [
+      [
+        760.4,
+        745.2
+      ],
+      [
+        989.6,
+        745.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D4C4": {
+    "points": [
+      [
+        739.6,
+        1004.8
+      ],
+      [
+        510.4,
+        1004.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D4D3": {
+    "points": [
+      [
+        745.2,
+        989.6
+      ],
+      [
+        745.2,
+        760.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D4D5": {
+    "points": [
+      [
+        754.8,
+        1010.4
+      ],
+      [
+        754.8,
+        1239.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "employment",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D4E4": {
+    "points": [
+      [
+        760.4,
+        995.2
+      ],
+      [
+        989.6,
+        995.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D5C5": {
+    "points": [
+      [
+        739.6,
+        1254.8
+      ],
+      [
+        510.4,
+        1254.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D5D4": {
+    "points": [
+      [
+        745.2,
+        1239.6
+      ],
+      [
+        745.2,
+        1010.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "D5E5": {
+    "points": [
+      [
+        760.4,
+        1245.2
+      ],
+      [
+        989.6,
+        1245.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E0D0": {
+    "points": [
+      [
+        989.6,
+        4.8
+      ],
+      [
+        760.4,
+        4.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E0E1": {
+    "points": [
+      [
+        1004.8,
+        10.4
+      ],
+      [
+        1004.8,
+        239.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E0F0": {
+    "points": [
+      [
+        1010.4,
+        -4.8
+      ],
+      [
+        1243.6,
+        -4.8
+      ]
+    ],
+    "length": 233.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E1D1": {
+    "points": [
+      [
+        989.6,
+        254.8
+      ],
+      [
+        760.4,
+        254.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E1E0": {
+    "points": [
+      [
+        995.2,
+        239.6
+      ],
+      [
+        995.2,
+        10.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E1E2": {
+    "points": [
+      [
+        1004.8,
+        260.4
+      ],
+      [
+        1004.8,
+        489.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E1F1": {
+    "points": [
+      [
+        1010.4,
+        245.2
+      ],
+      [
+        1239.6,
+        245.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E2D2": {
+    "points": [
+      [
+        989.6,
+        504.8
+      ],
+      [
+        760.4,
+        504.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E2E1": {
+    "points": [
+      [
+        995.2,
+        489.6
+      ],
+      [
+        995.2,
+        260.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E2E3": {
+    "points": [
+      [
+        1004.8,
+        510.4
+      ],
+      [
+        1004.8,
+        739.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E2F2": {
+    "points": [
+      [
+        1010.4,
+        495.2
+      ],
+      [
+        1239.6,
+        495.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E3D3": {
+    "points": [
+      [
+        989.6,
+        754.8
+      ],
+      [
+        760.4,
+        754.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E3E2": {
+    "points": [
+      [
+        995.2,
+        739.6
+      ],
+      [
+        995.2,
+        510.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E3E4": {
+    "points": [
+      [
+        1004.8,
+        760.4
+      ],
+      [
+        1004.8,
+        989.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E3F3": {
+    "points": [
+      [
+        1010.4,
+        745.2
+      ],
+      [
+        1239.6,
+        745.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E4D4": {
+    "points": [
+      [
+        989.6,
+        1004.8
+      ],
+      [
+        760.4,
+        1004.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E4E3": {
+    "points": [
+      [
+        995.2,
+        989.6
+      ],
+      [
+        995.2,
+        760.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E4E5": {
+    "points": [
+      [
+        1004.8,
+        1010.4
+      ],
+      [
+        1004.8,
+        1239.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E4F4": {
+    "points": [
+      [
+        1010.4,
+        995.2
+      ],
+      [
+        1239.6,
+        995.2
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E5D5": {
+    "points": [
+      [
+        989.6,
+        1254.8
+      ],
+      [
+        760.4,
+        1254.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E5E4": {
+    "points": [
+      [
+        995.2,
+        1239.6
+      ],
+      [
+        995.2,
+        1010.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "E5F5": {
+    "points": [
+      [
+        1010.4,
+        1245.2
+      ],
+      [
+        1243.6,
+        1245.2
+      ]
+    ],
+    "length": 233.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "F0E0": {
+    "points": [
+      [
+        1243.6,
+        4.8
+      ],
+      [
+        1010.4,
+        4.8
+      ]
+    ],
+    "length": 233.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "F0F1": {
+    "points": [
+      [
+        1254.8,
+        6.4
+      ],
+      [
+        1254.8,
+        239.6
+      ]
+    ],
+    "length": 233.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "F1E1": {
+    "points": [
+      [
+        1239.6,
+        254.8
+      ],
+      [
+        1010.4,
+        254.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "F1F0": {
+    "points": [
+      [
+        1245.2,
+        239.6
+      ],
+      [
+        1245.2,
+        6.4
+      ]
+    ],
+    "length": 233.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "F1F2": {
+    "points": [
+      [
+        1254.8,
+        260.4
+      ],
+      [
+        1254.8,
+        489.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "F2E2": {
+    "points": [
+      [
+        1239.6,
+        504.8
+      ],
+      [
+        1010.4,
+        504.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "F2F1": {
+    "points": [
+      [
+        1245.2,
+        489.6
+      ],
+      [
+        1245.2,
+        260.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": true
+  },
+  "F2F3": {
+    "points": [
+      [
+        1254.8,
+        510.4
+      ],
+      [
+        1254.8,
+        739.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "F3E3": {
+    "points": [
+      [
+        1239.6,
+        754.8
+      ],
+      [
+        1010.4,
+        754.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "F3F2": {
+    "points": [
+      [
+        1245.2,
+        739.6
+      ],
+      [
+        1245.2,
+        510.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "F3F4": {
+    "points": [
+      [
+        1254.8,
+        760.4
+      ],
+      [
+        1254.8,
+        989.6
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": true,
+    "school": false
+  },
+  "F4E4": {
+    "points": [
+      [
+        1239.6,
+        1004.8
+      ],
+      [
+        1010.4,
+        1004.8
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "F4F3": {
+    "points": [
+      [
+        1245.2,
+        989.6
+      ],
+      [
+        1245.2,
+        760.4
+      ]
+    ],
+    "length": 229.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "F4F5": {
+    "points": [
+      [
+        1254.8,
+        1010.4
+      ],
+      [
+        1254.8,
+        1243.6
+      ]
+    ],
+    "length": 233.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "F5E5": {
+    "points": [
+      [
+        1243.6,
+        1254.8
+      ],
+      [
+        1010.4,
+        1254.8
+      ]
+    ],
+    "length": 233.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": false,
+    "school": false
+  },
+  "F5F4": {
+    "points": [
+      [
+        1245.2,
+        1243.6
+      ],
+      [
+        1245.2,
+        1010.4
+      ]
+    ],
+    "length": 233.2,
+    "zone": "residential",
+    "bus": false,
+    "gate": true,
+    "school": false
+  }
+}

@@ -1,0 +1,33 @@
+\begin{table}[!htbp]
+\centering
+\small
+\caption{Development cross-validation and independent single-run test performance.}
+\label{tab:performance}
+\begin{tabular}{lllrrrr}
+\toprule
+Output & Model & CV $R^2$ & CV RMSE & Test $R^2$ & Test RMSE & Test MAE \\
+\midrule
+All-vehicle delay & Ridge & 0.436 $\pm$ 0.090 & 7.181 & 0.478 & 6.707 & 4.884 \\
+All-vehicle delay & GaussianProcess & 0.925 $\pm$ 0.030 & 2.559 & 0.938 & 2.315 & 1.667 \\
+All-vehicle delay & RandomForest & 0.898 $\pm$ 0.030 & 3.008 & 0.901 & 2.925 & 2.114 \\
+All-vehicle delay & LightGBM & 0.917 $\pm$ 0.031 & 2.693 & 0.931 & 2.439 & 1.756 \\
+All-vehicle delay & CatBoost & 0.919 $\pm$ 0.037 & 2.654 & 0.936 & 2.357 & 1.623 \\
+All-vehicle delay & XGBoost & 0.916 $\pm$ 0.029 & 2.739 & 0.930 & 2.454 & 1.733 \\
+All-vehicle delay & Ensemble & 0.922 $\pm$ 0.032 & 2.616 & 0.937 & 2.336 & 1.618 \\
+VKT & Ridge & 0.944 $\pm$ 0.006 & 157.972 & 0.945 & 155.488 & 124.351 \\
+VKT & GaussianProcess & 0.994 $\pm$ 0.001 & 53.505 & 0.995 & 44.833 & 35.005 \\
+VKT & RandomForest & 0.948 $\pm$ 0.014 & 151.117 & 0.963 & 128.247 & 101.550 \\
+VKT & LightGBM & 0.972 $\pm$ 0.006 & 112.152 & 0.982 & 88.315 & 68.810 \\
+VKT & CatBoost & 0.986 $\pm$ 0.002 & 79.465 & 0.992 & 58.699 & 46.630 \\
+VKT & XGBoost & 0.970 $\pm$ 0.007 & 114.688 & 0.986 & 77.829 & 60.880 \\
+VKT & Ensemble & 0.981 $\pm$ 0.004 & 91.853 & 0.991 & 61.487 & 47.989 \\
+General-traffic delay & Ridge & 0.369 $\pm$ 0.168 & 6.867 & 0.417 & 6.587 & 4.773 \\
+General-traffic delay & GaussianProcess & 0.921 $\pm$ 0.045 & 2.322 & 0.951 & 1.916 & 1.464 \\
+General-traffic delay & RandomForest & 0.890 $\pm$ 0.072 & 2.732 & 0.924 & 2.370 & 1.855 \\
+General-traffic delay & LightGBM & 0.907 $\pm$ 0.061 & 2.508 & 0.937 & 2.160 & 1.678 \\
+General-traffic delay & CatBoost & 0.897 $\pm$ 0.055 & 2.704 & 0.942 & 2.073 & 1.496 \\
+General-traffic delay & XGBoost & 0.900 $\pm$ 0.057 & 2.639 & 0.935 & 2.205 & 1.670 \\
+General-traffic delay & Ensemble & 0.904 $\pm$ 0.054 & 2.599 & 0.941 & 2.095 & 1.557 \\
+\bottomrule
+\end{tabular}
+\end{table}
