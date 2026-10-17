@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software or data, please cite it as below."
-title: "Explainable SUMO surrogates: validation-first study (code and results)"
+title: "Beyond Predictive Accuracy: Validating Explainable Surrogates for Activity-Based Traffic Simulation in SUMO"
 version: 4.0.0
 date-released: 2026-10-17
 license: MIT

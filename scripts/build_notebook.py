@@ -16,7 +16,7 @@ def code(s):
 
 
 md("""
-# Explainable SUMO surrogates — validation-first study
+# Beyond Predictive Accuracy: Validating Explainable Surrogates for Activity-Based Traffic Simulation in SUMO
 
 This notebook reproduces every result, table and figure of the article, in order:
 

@@ -1,4 +1,4 @@
-# Validating Explainable Surrogates of SUMO
+# Beyond Predictive Accuracy: Validating Explainable Surrogates for Activity-Based Traffic Simulation in SUMO
 
 [![Python](https://img.shields.io/badge/Python-%E2%89%A53.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![SUMO](https://img.shields.io/badge/Eclipse%20SUMO-1.28.0-2C3E50)](https://eclipse.dev/sumo/)
@@ -7,7 +7,7 @@
 
 Code, experiment designs, result tables, figures, and reproducibility materials for:
 
-> **Validating Explainable Surrogates of Activity-Based Microscopic Traffic Simulation: Independent Tests, Seed Noise, and Simulator-Checked Interventions in SUMO**
+> **Beyond Predictive Accuracy: Validating Explainable Surrogates for Activity-Based Traffic Simulation in SUMO**
 
 This repository investigates when surrogate models and explainable machine-learning methods can be trusted as substitutes for expensive traffic-simulation experiments. The study evaluates every major claim against fresh Eclipse SUMO simulations rather than relying only on surrogate diagnostics.
 
